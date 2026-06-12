@@ -1,0 +1,85 @@
+{% extends 'sentiminer/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Subir archivo para análisis</h3>
+                <!-- <p class="card-subtitle text-secondary">
+                    Solo se aceptan archivos de texto plano (.txt)
+                </p> -->
+            </div>
+            <div class="card-body">
+                <form
+                    hx-post="{% url 'subir_archivo' %}"
+                    hx-encoding="multipart/form-data"
+                    hx-target="#resultado-subida"
+                    hx-indicator="#spinner"
+                >
+                {% csrf_token %}
+                    <div class="mb-3">
+                        <label class="form-label">Seleccione un archivo .txt</label>
+                        <input
+                            type="file"
+                            name="archivo"
+                            accept=".txt"
+                            class="form-control"
+                            required
+                        >
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-report-analytics"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" /><path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" /><path d="M9 17v-5" /><path d="M12 17v-1" /><path d="M15 17v-3" /></svg>
+                        Analizar archivo
+                    </button>
+                </form>
+
+                <div id="spinner" class="htmx-indicator text-center mt-3">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Analizando...</span>
+                    </div>
+                    <p class="mt-2 text-secondary">Procesando archivo y analizando sentimientos...</p>
+                </div>
+
+                <div id="resultado-subida"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if archivos %}
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-10">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Análisis anteriores</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-vcenter card-table">
+                    <thead>
+                        <tr>
+                            <th>Archivo</th>
+                            <th>Fecha</th>
+                            <th class="w-1"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for archivo in archivos %}
+                        <tr>
+                            <td>{{ archivo.nombre_original }}</td>
+                            <td class="text-secondary">{{ archivo.fecha_subida|date:"d/m/Y H:i" }}</td>
+                            <td>
+                                <a href="{% url 'resultados' archivo.pk %}" class="btn btn-sm btn-primary">
+                                    Ver
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

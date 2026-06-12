@@ -1,0 +1,153 @@
+{% extends 'sentiminer/base.html' %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <a href="{% url 'inicio' %}" class="btn btn-outline-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="19" y1="12" x2="5" y2="12"/>
+                <polyline points="12 19 5 12 12 5"/>
+            </svg>
+            Volver
+        </a>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h2>Resultados: {{ archivo.nombre_original }}</h2>
+        <p class="text-secondary">Analizado el {{ archivo.fecha_subida|date:"d/m/Y H:i" }}</p>
+    </div>
+</div>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-3 col-sm-6">
+        <div class="card card-status">
+            <div class="card-body text-center">
+                <div class="text-secondary mb-1">Total líneas</div>
+                <div class="h1 mb-0">{{ resumen.total_lineas }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="card card-status">
+            <div class="card-body text-center">
+                <div class="sentimiento-positivo mb-1">Positivas</div>
+                <div class="h1 mb-0 sentimiento-positivo">
+                    {{ resumen.porcentaje_positivo|floatformat:1 }}%
+                </div>
+                <small class="text-secondary">{{ resumen.positivas }} líneas</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="card card-status">
+            <div class="card-body text-center">
+                <div class="sentimiento-negativo mb-1">Negativas</div>
+                <div class="h1 mb-0 sentimiento-negativo">
+                    {{ resumen.porcentaje_negativo|floatformat:1 }}%
+                </div>
+                <small class="text-secondary">{{ resumen.negativas }} líneas</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="card card-status">
+            <div class="card-body text-center">
+                <div class="sentimiento-neutro mb-1">Neutras</div>
+                <div class="h1 mb-0 sentimiento-neutro">
+                    {{ resumen.porcentaje_neutro|floatformat:1 }}%
+                </div>
+                <small class="text-secondary">{{ resumen.neutras }} líneas</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <strong>Sentimiento predominante:</strong>
+                <span class="badge badge-{{ resumen.sentimiento_predominante }} ms-2">
+                    {{ resumen.sentimiento_predominante|upper }}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-12">
+        <div class="btn-list">
+            <a href="{% url 'exportar_csv' archivo.pk %}" class="btn btn-outline-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Exportar CSV
+            </a>
+            <a href="{% url 'exportar_txt' archivo.pk %}" class="btn btn-outline-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Exportar TXT
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3 mb-4">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Distribución de sentimientos</h3>
+            </div>
+            <div class="card-body"
+                hx-get="{% url 'grafico_sentimientos' archivo.pk %}"
+                hx-trigger="load"
+                hx-swap="innerHTML">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Variación sentimental por línea</h3>
+            </div>
+            <div class="card-body"
+                hx-get="{% url 'grafico_tendencia' archivo.pk %}"
+                hx-trigger="load"
+                hx-swap="innerHTML">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Detalle por línea</h3>
+            </div>
+            <div class="card-body"
+                hx-get="{% url 'tabla_resultados' archivo.pk %}"
+                hx-trigger="load"
+                hx-swap="innerHTML">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

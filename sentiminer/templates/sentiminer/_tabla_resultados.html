@@ -1,0 +1,26 @@
+<div class="table-responsive">
+    <table class="table table-vcenter card-table table-hover">
+        <thead>
+            <tr>
+                <th class="w-1">#</th>
+                <th>Texto</th>
+                <th class="w-1">Clasificación</th>
+                <th class="w-1">Polaridad</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for linea in lineas %}
+            <tr>
+                <td class="text-secondary">{{ linea.numero_linea }}</td>
+                <td>{{ linea.texto }}</td>
+                <td>
+                    <span class="badge badge-{{ linea.clasificacion }}">
+                        {{ linea.clasificacion|upper }}
+                    </span>
+                </td>
+                <td class="text-secondary">{{ linea.puntaje_polaridad }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
