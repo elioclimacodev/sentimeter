@@ -1,7 +1,4 @@
 Django
 pysentimiento
 plotly
-pandas
-python-dotenv
 vaderSentiment
-textblob

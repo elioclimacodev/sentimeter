@@ -1,31 +1,24 @@
 import csv
-import plotly.graph_objects as go
-import plotly.express as px
-from django.shortcuts import render, redirect, get_object_or_404
+import math
 from django.http import HttpResponse
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.http import JsonResponse
 from .models import ArchivoAnalisis, ResultadoLinea, ResumenAnalisis
 from .services import AnalizadorSentimiento
 
+try:
+    import plotly.graph_objects as go
+except ImportError:
+    go = None
+
 
 def inicio(request):
-    """
-    HU-08: Interfaz minimalista.
-    Página principal con formulario para subir archivos .txt.
-    """
     archivos = ArchivoAnalisis.objects.all()
     return render(request, 'sentiminer/inicio.html', {'archivos': archivos})
 
 
 def subir_archivo(request):
-    """
-    HU-01: Carga de archivos .txt.
-    HU-02: Lectura integral del contenido.
-    HU-12: Manejo de errores con mensajes claros.
-    
-    Recibe un archivo .txt, lo valida, guarda su contenido
-    y ejecuta el análisis sentimental completo.
-    """
     if request.method != 'POST':
         return redirect('inicio')
 
@@ -66,6 +59,12 @@ def subir_archivo(request):
         return redirect('inicio')
 
     messages.success(request, 'Archivo analizado correctamente.')
+
+    if request.headers.get('HX-Request'):
+        response = HttpResponse()
+        response['HX-Redirect'] = f'/resultados/{archivo_obj.pk}/'
+        return response
+
     return redirect('resultados', archivo_id=archivo_obj.pk)
 
 
@@ -172,15 +171,73 @@ def grafico_tendencia(request, archivo_id):
 
 
 def tabla_resultados(request, archivo_id):
-    """
-    Retorna la tabla con los resultados por línea.
-    Se carga vía HTMX para actualización asíncrona.
-    """
     archivo = get_object_or_404(ArchivoAnalisis, pk=archivo_id)
     lineas = ResultadoLinea.objects.filter(archivo=archivo)
 
+    clasificacion = request.GET.get('clasificacion', '').strip()
+    q = request.GET.get('q', '').strip()
+    per_page = request.GET.get('per_page', '10')
+    page = request.GET.get('page', '1')
+
+    if clasificacion in ('positivo', 'negativo', 'neutro'):
+        lineas = lineas.filter(clasificacion=clasificacion)
+
+    if q:
+        lineas = lineas.filter(texto__icontains=q)
+
+    try:
+        per_page = int(per_page)
+        if per_page not in (5, 10, 25, 50, 100):
+            per_page = 10
+    except (ValueError, TypeError):
+        per_page = 10
+
+    try:
+        page = int(page)
+        if page < 1:
+            page = 1
+    except (ValueError, TypeError):
+        page = 1
+
+    total_registros = lineas.count()
+    total_paginas = math.ceil(total_registros / per_page) if total_registros > 0 else 1
+
+    if page > total_paginas:
+        page = total_paginas
+
+    inicio = (page - 1) * per_page
+    fin = inicio + per_page
+    lineas_pagina = lineas[inicio:fin]
+
+    rango_inicio = inicio + 1
+    rango_fin = min(fin, total_registros)
+
+    paginas = []
+    if total_paginas <= 7:
+        paginas = list(range(1, total_paginas + 1))
+    else:
+        paginas.append(1)
+        if page > 3:
+            paginas.append('...')
+        start = max(2, page - 1)
+        end = min(total_paginas - 1, page + 1)
+        paginas.extend(range(start, end + 1))
+        if page < total_paginas - 2:
+            paginas.append('...')
+        paginas.append(total_paginas)
+
     return render(request, 'sentiminer/_tabla_resultados.html', {
-        'lineas': lineas
+        'lineas': lineas_pagina,
+        'page': page,
+        'per_page': per_page,
+        'total_paginas': total_paginas,
+        'total_registros': total_registros,
+        'rango_inicio': rango_inicio,
+        'rango_fin': rango_fin,
+        'clasificacion': clasificacion,
+        'q': q,
+        'archivo_id': archivo_id,
+        'paginas': paginas,
     })
 
 

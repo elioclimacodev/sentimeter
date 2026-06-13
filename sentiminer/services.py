@@ -1,6 +1,5 @@
 import re
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from textblob import TextBlob
 from .models import ArchivoAnalisis, ResultadoLinea, ResumenAnalisis
 
 
