@@ -154,7 +154,7 @@ def grafico_tendencia(request, archivo_id):
     )
 
     fig.update_layout(
-        title='Evolución del sentimiento por línea',
+        # title='Evolución del sentimiento por línea',
         xaxis_title='Número de línea',
         yaxis_title='Polaridad',
         margin=dict(t=40, b=40, l=40, r=20),

@@ -26,6 +26,7 @@
             <div class="card-body text-center">
                 <div class="text-secondary mb-1">Total líneas</div>
                 <div class="h1 mb-0">{{ resumen.total_lineas }}</div>
+                <small class="text-secondary">Analizadas</small>
             </div>
         </div>
     </div>
@@ -106,7 +107,7 @@
             <div class="card-header">
                 <h3 class="card-title">Distribución de sentimientos</h3>
             </div>
-            <div class="card-body"
+            <div class="card-body mt-3 mb-3"
                 hx-get="{% url 'grafico_sentimientos' archivo.pk %}"
                 hx-trigger="load"
                 hx-swap="innerHTML">
