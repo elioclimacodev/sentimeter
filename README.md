@@ -11,7 +11,6 @@ SentiMiner es una herramienta web de análisis sentimental que permite a los usu
 - **Análisis de sentimientos**:
   - **pysentimiento**: Librería principal para análisis en español (mayor precisión)
   - **VADER (vaderSentiment)**: Fallback para análisis en inglés
-  - **TextBlob**: Resaldo adicional
 - **Base de datos**: SQLite
 - **CSS Framework**: Tabler
 - **Visualización**: Plotly (gráficos de pastel y tendencia)
@@ -145,8 +144,6 @@ El proyecto **NO se conecta a modelos en la nube**. Utiliza modelos locales que 
 1. **pysentimiento** (español): Modelo de análisis de sentimientos pre-entrenado para español. Se carga bajo demanda la primera vez que se analiza un texto en español.
 
 2. **VADER** (inglés): Análisis de sentimientos basado en reglas léxicas. Se utiliza como fallback para textos en inglés.
-
-3. **TextBlob** (respaldo): Librería adicional para análisis de texto. No se utiliza activamente en el flujo principal pero está disponible como dependencia.
 
 ### Flujo de análisis
 1. El sistema detecta el idioma mediante heurísticas (presencia de caracteres como ñ, tildes, ¿, ¡)
