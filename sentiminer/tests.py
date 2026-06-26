@@ -166,7 +166,7 @@ class ProcesamientoArchivoTest(TestCase):
 class VistasTest(TestCase):
     """
     HU-08: Verifica que la interfaz carga correctamente.
-    HU-04, HU-05, HU-09: Verifica las vistas de resultados.
+    HU-04, HU-06, HU-09: Verifica las vistas de resultados y gráficos.
     """
 
     def setUp(self):

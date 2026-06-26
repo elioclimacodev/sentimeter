@@ -14,11 +14,18 @@ except ImportError:
 
 
 def inicio(request):
+    """
+    HU-09: Interfaz simple para facilitar el uso sin complejidad.
+    """
     archivos = ArchivoAnalisis.objects.all()
     return render(request, 'sentiminer/inicio.html', {'archivos': archivos})
 
 
 def subir_archivo(request):
+    """
+    HU-01: Carga de archivos .txt para analizar entrevistas.
+    HU-12: Manejo de errores con mensajes claros ante archivos inválidos.
+    """
     if request.method != 'POST':
         return redirect('inicio')
 
@@ -87,7 +94,7 @@ def resultados(request, archivo_id):
 
 def grafico_sentimientos(request, archivo_id):
     """
-    HU-05: Genera gráfico de pastel con la distribución de sentimientos.
+    HU-06: Genera gráfico de pastel con la distribución de sentimientos.
     Se carga vía HTMX para actualización asíncrona.
     """
     archivo = get_object_or_404(ArchivoAnalisis, pk=archivo_id)
@@ -124,7 +131,7 @@ def grafico_sentimientos(request, archivo_id):
 
 def grafico_tendencia(request, archivo_id):
     """
-    HU-09: Variación sentimental a lo largo del texto.
+    HU-05: Variación sentimental a lo largo del texto.
     Gráfico de línea que muestra la evolución del sentimiento
     línea por línea para detectar patrones.
     """
@@ -171,6 +178,10 @@ def grafico_tendencia(request, archivo_id):
 
 
 def tabla_resultados(request, archivo_id):
+    """
+    HU-04: Muestra resultados detallados del análisis por línea.
+    HU-06: Visualización de resultados para interpretación visual.
+    """
     archivo = get_object_or_404(ArchivoAnalisis, pk=archivo_id)
     lineas = ResultadoLinea.objects.filter(archivo=archivo)
 

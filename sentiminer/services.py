@@ -30,7 +30,7 @@ class AnalizadorSentimiento:
 
     def _es_espanol(self, texto):
         """
-        Detectar si un texto está en español.
+        HU-03: Detecta si un texto está en español.
         Busca caracteres propios del español: ñ, tildes, ¿, ¡
         """
         patron_espanol = re.compile(r'[ñáéíóúüÁÉÍÓÚÜ¿¡]')
@@ -38,7 +38,7 @@ class AnalizadorSentimiento:
 
     def analizar_texto(self, texto):
         """
-        Analiza un texto y devuelve su clasificación sentimental.
+        HU-03: Analiza un texto y devuelve su clasificación sentimental.
         
         Prioriza pysentimiento para textos en español.
         Usa VADER como fallback para inglés.
@@ -86,7 +86,7 @@ class AnalizadorSentimiento:
 
     def _analizar_vader(self, texto):
         """
-        Análisis con VADER para inglés. Incluye puntuación compuesta.
+        HU-03: Análisis con VADER para inglés. Incluye puntuación compuesta.
         """
         puntajes = self.vader.polarity_scores(texto)
         compuesto = puntajes['compound']
@@ -106,8 +106,8 @@ class AnalizadorSentimiento:
 
     def procesar_archivo(self, archivo_id):
         """
-        HU-02, HU-03, HU-04: Procesa todas las líneas de un archivo y
-        genera el resumen estadístico del análisis.
+        HU-02, HU-03, HU-04, HU-05: Procesa todas las líneas de un archivo,
+        clasifica sentimientos y genera el resumen estadístico del análisis.
         
         Args:
             archivo_id: ID del ArchivoAnalisis a procesar

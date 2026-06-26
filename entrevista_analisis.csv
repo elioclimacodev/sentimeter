@@ -1,0 +1,1087 @@
+Número de Línea,Texto,Clasificación,Polaridad,Librería
+1,"Excelente implementación de Odoo, nuestra gestión mejoró un 100%.",positivo,0.962,pysentimiento
+2,El equipo de consultoría fue muy profesional y paciente.,positivo,0.9642,pysentimiento
+3,"Estoy encantado con la automatización de las ventas, ¡ahorramos horas de trabajo!",positivo,0.9346,pysentimiento
+4,"La migración de datos fue impecable, no perdimos ninguna información.",positivo,0.9478,pysentimiento
+5,"Un servicio de diez, implementaron todo en el tiempo acordado.",neutro,0.0,vader
+6,Odoo ha transformado la logística de nuestra empresa. ¡Gracias!,positivo,0.9476,pysentimiento
+7,Muy buena atención al cliente y soporte técnico rápido.,positivo,0.959,pysentimiento
+8,El sistema es intuitivo y la configuración fue perfecta.,positivo,0.9505,pysentimiento
+9,"Superaron mis expectativas, el ERP funciona a la perfección.",positivo,0.9149,pysentimiento
+10,La capacitación que nos dieron fue muy completa y clara.,positivo,0.9678,pysentimiento
+11,Finalmente tenemos el control total de nuestro inventario. ¡Genial!,positivo,0.9657,pysentimiento
+12,Recomendados al 100% para cualquier empresa que quiera digitalizarse.,neutro,0.0,vader
+13,"El módulo de contabilidad es una maravilla, simplificó todo.",positivo,0.9683,pysentimiento
+14,Me sorprendió la rapidez con la que resolvieron mis dudas.,positivo,0.7975,pysentimiento
+15,Gran trabajo de adaptación a las necesidades de nuestro negocio.,positivo,0.9066,pysentimiento
+16,La interfaz quedó muy limpia y fácil de usar para el personal.,positivo,0.9529,pysentimiento
+17,"Increíble servicio, el despliegue fue sin contratiempos.",positivo,0.9179,pysentimiento
+18,Por fin una empresa que sabe implementar Odoo correctamente.,neutro,0.0,vader
+19,Estamos muy satisfechos con el resultado final.,neutro,0.0,vader
+20,La integración con nuestra tienda online fue un éxito total.,positivo,0.9687,pysentimiento
+21,El ROI de esta implementación ha sido inmediato.,neutro,0.0,pysentimiento
+22,Muy amables y eficientes en cada etapa del proyecto.,neutro,0.0,vader
+23,"Odoo es potente, pero la implementación de ustedes lo hizo sencillo.",positivo,0.7268,pysentimiento
+24,Todo funciona como un reloj suizo. Muy agradecido.,neutro,0.0,vader
+25,La mejor inversión que hemos hecho este año para la empresa.,positivo,0.9559,pysentimiento
+26,El soporte post-implementación es excepcional.,positivo,0.6768,pysentimiento
+27,Me encanta cómo quedaron los reportes personalizados.,positivo,0.9629,pysentimiento
+28,El proceso de implementación fue fluido y organizado.,positivo,0.8117,pysentimiento
+29,Gracias por ayudarnos a modernizar nuestra gestión administrativa.,positivo,0.8568,pysentimiento
+30,Un equipo experto que realmente conoce el ecosistema Odoo.,neutro,0.0,vader
+31,¡Impresionante! Todo quedó configurado exactamente como queríamos.,positivo,0.884,pysentimiento
+32,Muy buena comunicación durante todo el proceso.,positivo,0.971,pysentimiento
+33,La herramienta es fantástica y el servicio de instalación fue top.,positivo,0.9783,pysentimiento
+34,Logramos optimizar los tiempos de entrega gracias a su ayuda.,neutro,0.0,vader
+35,⭐️⭐️⭐️⭐️⭐️ Servicio impecable y profesional.,neutro,0.0,vader
+36,"Un desastre total, el sistema se cae constantemente.",neutro,0.0,vader
+37,Tardaron tres meses más de lo prometido en entregar el ERP.,negativo,-0.8012,pysentimiento
+38,"La capacitación fue insuficiente, nadie en mi oficina sabe usar el programa.",negativo,-0.978,pysentimiento
+39,"Me siento estafado, prometieron módulos que nunca instalaron.",negativo,-0.9731,pysentimiento
+40,"El soporte técnico es lentísimo, tardan días en responder un ticket.",negativo,-0.9606,pysentimiento
+41,"Odoo es bueno, pero la implementación de esta empresa fue mediocre.",negativo,-0.9512,pysentimiento
+42,El sistema tiene demasiados errores de configuración.,negativo,-0.9459,pysentimiento
+43,"No saben escuchar las necesidades del cliente, instalaron algo genérico.",negativo,-0.9762,pysentimiento
+44,Una pérdida de tiempo y dinero. No los recomiendo.,negativo,-0.9622,pysentimiento
+45,"La migración de datos fue un caos, tenemos registros duplicados por todos lados.",negativo,-0.9662,pysentimiento
+46,El consultor no tenía idea de cómo resolver el problema de la factura electrónica.,negativo,-0.8058,pysentimiento
+47,"Muy mala comunicación, nunca sabíamos en qué etapa estaba el proyecto.",negativo,-0.9584,pysentimiento
+48,El costo final fue mucho más alto que el presupuesto inicial.,negativo,-0.4828,pysentimiento
+49,"El ERP es lentísimo, no optimizaron la base de datos.",negativo,-0.9777,pysentimiento
+50,"No cumplen con los plazos de entrega, una falta de respeto.",negativo,-0.296,vader
+51,"La configuración de inventarios es un dolor de cabeza, nada cuadra.",negativo,-0.9769,pysentimiento
+52,Me dejaron el sistema a medias y ahora no sé a quién reclamar.,negativo,-0.9584,pysentimiento
+53,"Muy arrogantes los consultores, no aceptan sugerencias.",negativo,-0.296,vader
+54,La interfaz quedó confusa y el personal se resiste a usarla.,negativo,-0.9141,pysentimiento
+55,"Hubo errores graves en el módulo de nómina, casi cometemos un error legal.",negativo,-0.9567,pysentimiento
+56,"No recomiendo este servicio, buscaron la vía rápida y no la correcta.",negativo,-0.9468,pysentimiento
+57,"Cada vez que arreglan un bug, crean dos nuevos.",neutro,0.0,vader
+58,El servicio post-venta es inexistente.,neutro,0.0,vader
+59,Demasiadas promesas y muy pocos resultados reales.,neutro,0.0,vader
+60,El sistema es inestable y se bloquea al generar reportes grandes.,neutro,0.0,vader
+61,Una experiencia frustrante desde el primer día.,negativo,-0.9609,pysentimiento
+62,No entendieron nuestro modelo de negocio y el ERP no nos sirve.,negativo,-0.5267,vader
+63,El despliegue fue improvisado y lleno de fallos.,neutro,0.0,vader
+64,Siento que solo querían cobrar la licencia y no importarles la implementación.,negativo,-0.9191,pysentimiento
+65,El flujo de trabajo que configuraron es más lento que el manual.,negativo,-0.9002,pysentimiento
+66,"Horrible servicio, no responden los correos.",negativo,-0.6908,vader
+67,"Me vendieron humo, el sistema no hace el 50% de lo que dijeron.",negativo,-0.296,vader
+68,Un proceso engorroso y mal gestionado.,neutro,0.0,vader
+69,No tienen experiencia real en implementaciones de gran escala.,negativo,-0.296,vader
+70,Pésima calidad en la parametrización de los módulos.,negativo,-0.955,pysentimiento
+71,El servicio de implementación de Odoo fue estándar.,neutro,0.0,pysentimiento
+72,Instalaron el sistema el lunes y empezamos a usarlo el miércoles.,neutro,0.0,pysentimiento
+73,"Es un ERP robusto, aunque requiere tiempo para acostumbrarse.",neutro,0.0,vader
+74,"El proceso fue normal, ni muy rápido ni muy lento.",neutro,0.0,pysentimiento
+75,Cumplieron con los requerimientos básicos solicitados.,neutro,0.0,pysentimiento
+76,"El sistema funciona, pero tiene algunas cosas por mejorar.",neutro,0.0,vader
+77,Recibimos la capacitación básica de Odoo.,neutro,0.0,pysentimiento
+78,"Es una herramienta útil, aunque la curva de aprendizaje es alta.",positivo,0.6632,pysentimiento
+79,El consultor vino dos veces a la oficina para la puesta en marcha.,neutro,0.0,vader
+80,El precio está dentro del promedio del mercado.,neutro,0.0,pysentimiento
+81,"Odoo tiene muchas funciones, algunas no las vamos a usar.",negativo,-0.296,vader
+82,La implementación tomó el tiempo estimado.,neutro,0.0,pysentimiento
+83,El software hace lo que dice el manual.,neutro,0.0,vader
+84,"Se instalaron los módulos de ventas, compras e inventario.",neutro,0.0,pysentimiento
+85,El equipo técnico fue cordial durante las reuniones.,positivo,0.7574,pysentimiento
+86,Estamos evaluando si el sistema se adapta a largo plazo.,neutro,0.0,vader
+87,Es un cambio significativo respecto a cómo trabajábamos antes.,positivo,0.6479,pysentimiento
+88,"El servicio fue aceptable, sin grandes sorpresas.",negativo,-0.5574,vader
+89,Recibimos la documentación del sistema por correo.,neutro,0.0,pysentimiento
+90,La configuración fue la estándar de Odoo.,neutro,0.0,pysentimiento
+91,"El sistema es estable, aunque la velocidad es regular.",neutro,0.0,vader
+92,Tuvimos algunas dudas que fueron resueltas en la segunda semana.,neutro,0.0,vader
+93,Es una opción viable para empresas de nuestro tamaño.,positivo,0.7177,pysentimiento
+94,El despliegue se hizo de manera remota.,neutro,0.0,vader
+95,"Comparado con otros ERP, este es más moderno.",neutro,0.0,pysentimiento
+96,El proceso de instalación siguió los pasos previstos.,neutro,0.0,pysentimiento
+97,Se implementaron los cambios solicitados en el contrato.,neutro,0.0,vader
+98,El sistema requiere una conexión a internet estable para funcionar.,neutro,0.0,pysentimiento
+99,La transición al nuevo ERP fue un proceso gradual.,neutro,0.0,pysentimiento
+100,Odoo es una herramienta conocida y el servicio fue el esperado.,neutro,0.0,vader
+101,"La implementación fue aceptable, cumple con lo básico.",positivo,0.844,pysentimiento
+102,¡Increíble! El módulo de CRM nos cambió la vida. 🚀,positivo,0.7006,pysentimiento
+103,"No recomiendo a esta empresa, el despliegue fue un caos total.",negativo,-0.296,vader
+104,El sistema de Odoo ya está operativo en todas las sucursales.,neutro,0.0,pysentimiento
+105,"El consultor fue muy amable, pero el sistema sigue fallando.",neutro,0.0,vader
+106,La migración de datos tomó más tiempo del esperado.,neutro,0.0,pysentimiento
+107,Súper contentos con la automatización de los reportes mensuales.,positivo,0.9038,pysentimiento
+108,"El software funciona, aunque la interfaz es un poco lenta.",neutro,0.0,vader
+109,"Pésimo servicio post-venta, nos dejaron solos tras el pago.",negativo,-0.9783,pysentimiento
+110,"La capacitación fue estándar, nada fuera de lo común.",neutro,0.0,pysentimiento
+111,Odoo es una gran herramienta y la instalación fue impecable.,positivo,0.9801,pysentimiento
+112,No entendieron nuestro flujo de caja y el ERP quedó mal configurado.,negativo,-0.9372,pysentimiento
+113,El precio del servicio es justo para lo que ofrecen.,neutro,0.0,vader
+114,Me encanta cómo integraron la pasarela de pagos. ¡10/10!,positivo,0.9721,pysentimiento
+115,Siento que pagué demasiado por un servicio mediocre.,negativo,-0.9844,pysentimiento
+116,Se instalaron los módulos de compras y ventas según el contrato.,neutro,0.0,pysentimiento
+117,"El soporte técnico es un desastre, tardan siglos en contestar.",negativo,-0.9756,pysentimiento
+118,"Finalmente tenemos el inventario cuadrado, gracias al equipo.",neutro,0.0,vader
+119,El proceso de implementación fue lineal y sin sobresaltos.,positivo,0.7844,pysentimiento
+120,El sistema se cuelga cada vez que genero una factura masiva. 😡,neutro,0.0,vader
+121,"Es un ERP potente, pero requiere mucha paciencia para aprender.",neutro,0.0,vader
+122,"Excelente comunicación durante todo el proyecto, muy profesionales.",positivo,0.9707,pysentimiento
+123,La configuración de los impuestos fue un dolor de cabeza.,negativo,-0.976,pysentimiento
+124,El despliegue se realizó en la nube y funciona correctamente.,positivo,0.7385,pysentimiento
+125,"Todo quedó perfecto, superaron nuestras expectativas.",positivo,0.9553,pysentimiento
+126,No me gusta cómo manejaron la migración de los clientes antiguos.,negativo,-0.9746,pysentimiento
+127,"El servicio fue regular, ni bueno ni malo.",neutro,0.0,vader
+128,Una inversión totalmente rentable para nuestra pyme.,positivo,0.9476,pysentimiento
+129,El consultor no sabía explicar las funciones avanzadas de Odoo.,negativo,-0.5228,pysentimiento
+130,Recibimos el acceso al sistema el día acordado.,neutro,0.0,pysentimiento
+131,"El módulo de manufactura es una joya, optimizamos la producción.",positivo,0.9694,pysentimiento
+132,Demasiados bugs en la versión que nos entregaron.,negativo,-0.9575,pysentimiento
+133,"El sistema es estable, aunque la velocidad de carga es media.",neutro,0.0,vader
+134,"Muy buena gestión del proyecto, cumplieron cada hito.",positivo,0.9754,pysentimiento
+135,"Me siento defraudado, el ERP no hace lo que prometieron en la demo.",negativo,-0.296,vader
+136,Tuvimos una sesión de dudas el viernes pasado.,neutro,0.0,pysentimiento
+137,El servicio de implementación fue rápido y eficiente. ✅,positivo,0.7605,pysentimiento
+138,La parametrización de la nómina está llena de errores.,negativo,-0.9611,pysentimiento
+139,"El software hace lo que necesitamos, nada más ni nada menos.",positivo,0.8821,pysentimiento
+140,¡Qué gran equipo! Resolvieron problemas que otros no pudieron.,positivo,0.9383,pysentimiento
+141,"No recomiendo contratar el soporte mensual, es muy caro y lento.",negativo,-0.296,vader
+142,La transición del sistema viejo a Odoo fue gradual.,neutro,0.0,pysentimiento
+143,El sistema es intuitivo y el personal se adaptó rápido.,positivo,0.7649,pysentimiento
+144,"Sinceramente, fue una pérdida de tiempo y dinero.",negativo,-0.9662,pysentimiento
+145,Se implementaron los flujos de aprobación de gastos.,neutro,0.0,pysentimiento
+146,"Excelente soporte técnico, resolvieron mi duda en 10 minutos.",positivo,0.8108,pysentimiento
+147,"El ERP es muy complejo, la capacitación fue muy superficial.",negativo,-0.9576,pysentimiento
+148,"El despliegue fue normal, siguiendo el manual de Odoo.",neutro,0.0,vader
+149,Estoy fascinado con la visibilidad que ahora tengo del negocio.,neutro,0.0,vader
+150,Hubo mucha desorganización en las reuniones de seguimiento.,negativo,-0.901,pysentimiento
+151,El sistema funciona correctamente en Chrome y Firefox.,neutro,0.0,vader
+152,"Un servicio de lujo, el despliegue fue quirúrgico.",positivo,0.9637,pysentimiento
+153,El módulo de contabilidad no cuadra con nuestros reportes reales.,negativo,-0.9414,pysentimiento
+154,El costo de implementación se mantuvo dentro del presupuesto.,neutro,0.0,pysentimiento
+155,La herramienta es útil pero la curva de aprendizaje es empinada.,neutro,0.0,pysentimiento
+156,No pudieron resolver el problema de la integración con el banco.,negativo,-0.9418,pysentimiento
+157,"Súper profesionales, el ERP quedó adaptado a nuestra medida.",positivo,0.591,pysentimiento
+158,El proceso de instalación fue sencillo y sin errores.,positivo,0.8434,pysentimiento
+159,Me parece que el sistema es demasiado robusto para lo que necesitamos.,neutro,0.0,vader
+160,"El soporte es mediocre, solo responden lo básico.",negativo,-0.9728,pysentimiento
+161,¡Por fin un ERP que no es una pesadilla de usar!,positivo,0.6063,pysentimiento
+162,Se configuraron los permisos de usuario según la jerarquía.,neutro,0.0,pysentimiento
+163,El despliegue fue improvisado y se notó la falta de experiencia.,negativo,-0.9038,pysentimiento
+164,"La calidad del servicio es excepcional, muy recomendados.",neutro,0.0,vader
+165,"Odoo es bueno, pero la configuración de esta empresa fue pobre.",negativo,-0.9126,pysentimiento
+166,Tuvimos que hacer ajustes manuales porque el consultor se equivocó.,negativo,-0.8426,pysentimiento
+167,El sistema está funcionando en modo producción desde ayer.,neutro,0.0,pysentimiento
+168,Muy satisfechos con la rapidez de la implementación.,positivo,0.9411,pysentimiento
+169,El módulo de ventas es confuso y el personal se queja.,negativo,-0.9552,pysentimiento
+170,El servicio fue adecuado para el precio pagado.,neutro,0.0,vader
+171,El equipo técnico demostró un dominio total de Odoo.,negativo,-0.5377,pysentimiento
+172,Tardaron semanas en configurar un simple reporte de ventas.,neutro,0.0,vader
+173,"La implementación fue estándar, no hubo personalizaciones.",negativo,-0.7406,pysentimiento
+174,El ROI ha sido impresionante desde el primer mes.,positivo,0.34,vader
+175,El sistema es lento cuando hay más de 10 usuarios conectados.,negativo,-0.9426,pysentimiento
+176,La comunicación fue fluida a través de Slack.,positivo,0.4972,pysentimiento
+177,"No cumplieron con los plazos de entrega, un desastre.",negativo,-0.296,vader
+178,"La herramienta es potente, aunque requiere servidor propio.",neutro,0.0,vader
+179,Me encanta la flexibilidad que nos dio la configuración final.,positivo,0.9638,pysentimiento
+180,El consultor fue distante y no mostró interés en el negocio.,negativo,-0.8404,pysentimiento
+181,Se instaló el módulo de CRM y el de Inventarios.,neutro,0.0,pysentimiento
+182,"El servicio fue impecable, desde la preventa hasta la entrega.",neutro,0.0,vader
+183,La migración de datos dejó muchos campos vacíos.,negativo,-0.9392,pysentimiento
+184,"El ERP es funcional, cumple con los requerimientos.",neutro,0.0,vader
+185,"Súper mala experiencia, no respondieron mis correos por días.",negativo,-0.971,pysentimiento
+186,La capacitación fue muy dinámica y útil para el equipo.,positivo,0.9706,pysentimiento
+187,El sistema es estable pero la interfaz se siente anticuada.,neutro,0.0,vader
+188,Logramos reducir el tiempo de facturación a la mitad. ¡Genial!,positivo,0.956,pysentimiento
+189,El despliegue tuvo varios errores críticos al inicio.,negativo,-0.6425,pysentimiento
+190,Recibimos el manual de usuario en formato PDF.,neutro,0.0,vader
+191,"Un trabajo impecable, el sistema vuela. 🚀",neutro,0.0,vader
+192,No saben configurar la localización fiscal de nuestro país.,negativo,-0.9261,pysentimiento
+193,"El proceso fue normal, sin grandes hitos ni grandes fallos.",negativo,-0.5574,vader
+194,El servicio de consultoría fue de primer nivel.,positivo,0.9579,pysentimiento
+195,El módulo de compras es redundante para nuestro proceso.,positivo,0.7341,pysentimiento
+196,Me siento muy tranquilo ahora que todo está automatizado.,positivo,0.904,pysentimiento
+197,El ERP se cae constantemente durante el cierre de mes.,neutro,0.0,vader
+198,El tiempo de respuesta del equipo técnico fue aceptable.,positivo,0.5563,pysentimiento
+199,La mejor decisión que tomamos fue implementar Odoo con ellos.,positivo,0.9216,pysentimiento
+200,La parametrización fue superficial y tuvimos que rehacerla.,negativo,-0.9353,pysentimiento
+201,El sistema ya está integrado con nuestra tienda de Shopify.,neutro,0.0,pysentimiento
+202,No recomiendo este servicio por la falta de puntualidad.,negativo,-0.296,vader
+203,El despliegue fue satisfactorio y el equipo fue cordial.,neutro,0.0,vader
+204,"La implementación de Odoo fue correcta, sin lujos pero eficiente.",positivo,0.9269,pysentimiento
+205,¡Qué desastre! El sistema de inventarios no coincide con la realidad. 😡,negativo,-0.978,pysentimiento
+206,El equipo de consultoría demostró un dominio técnico impresionante.,positivo,0.9381,pysentimiento
+207,El software se instaló en el tiempo previsto.,neutro,0.0,pysentimiento
+208,"Me encanta la nueva gestión de proyectos, ahora todo es más visual.",positivo,0.9683,pysentimiento
+209,"Sinceramente, no sé si valió la pena la inversión, es muy complejo.",negativo,-0.918,pysentimiento
+210,"El soporte técnico es aceptable, aunque no son los más rápidos.",positivo,0.556,pysentimiento
+211,La migración de la base de datos fue un éxito rotundo. ✅,positivo,0.7071,pysentimiento
+212,No pudieron configurar la factura electrónica y estamos bloqueados.,negativo,-0.9394,pysentimiento
+213,El ERP cumple con las funciones básicas que solicitamos.,neutro,0.0,pysentimiento
+214,"Increíble servicio, transformaron nuestra empresa en un mes.",positivo,0.872,pysentimiento
+215,El consultor parecía estar improvisando en cada reunión.,negativo,-0.5623,pysentimiento
+216,"La interfaz de Odoo es moderna, pero la configuración fue pobre.",negativo,-0.6121,pysentimiento
+217,Recibimos la capacitación el martes pasado por Zoom.,neutro,0.0,pysentimiento
+218,"El flujo de ventas es ahora mucho más ágil, ¡estoy feliz!",positivo,0.9491,pysentimiento
+219,El sistema es inestable y se cae los lunes por la mañana.,negativo,-0.9641,pysentimiento
+220,"Un servicio estándar, nada que destacar ni que criticar.",positivo,0.8613,pysentimiento
+221,La integración con el e-commerce fue impecable. 🚀,positivo,0.7567,pysentimiento
+222,Me vendieron una solución personalizada y me dieron una estándar.,neutro,0.0,pysentimiento
+223,El costo mensual del soporte es razonable.,neutro,0.0,vader
+224,El módulo de RRHH es intuitivo y muy fácil de parametrizar.,positivo,0.878,pysentimiento
+225,"Tuvimos problemas con los permisos de usuario, pero se resolvieron.",neutro,0.0,vader
+226,La implementación fue un camino lleno de baches y errores.,negativo,-0.9044,pysentimiento
+227,"Odoo es una herramienta potente, el servicio fue adecuado.",neutro,0.0,vader
+228,¡Por fin! Un equipo que entiende de procesos industriales.,positivo,0.8892,pysentimiento
+229,El software es lento al cargar los reportes de ventas anuales.,neutro,0.0,vader
+230,"El despliegue fue normal, siguiendo los pasos del manual.",neutro,0.0,vader
+231,"Me siento estafado con la promesa de ""implementación rápida"".",negativo,-0.9569,pysentimiento
+232,"Excelente atención al cliente, siempre dispuestos a ayudar.",positivo,0.9189,pysentimiento
+233,La parametrización de los almacenes quedó a medio hacer.,neutro,0.0,pysentimiento
+234,"El sistema funciona, aunque la curva de aprendizaje es eterna.",neutro,0.0,vader
+235,El ROI se nota desde la primera semana de uso. 💰,neutro,0.0,vader
+236,Tardaron una eternidad en configurar el módulo de compras.,negativo,-0.9354,pysentimiento
+237,Se instalaron los módulos solicitados en el contrato original.,neutro,0.0,pysentimiento
+238,"El servicio fue mediocre, esperaba más profesionalismo.",negativo,-0.9433,pysentimiento
+239,La comunicación con el gestor del proyecto fue excelente.,positivo,0.9665,pysentimiento
+240,"El ERP es robusto, pero requiere un servidor más potente.",neutro,0.0,pysentimiento
+241,"No recomiendo a esta empresa, no tienen ni idea de contabilidad.",negativo,-0.5267,vader
+242,"La capacitación fue muy básica, tuvimos que aprender solos.",negativo,-0.9432,pysentimiento
+243,Súper contentos con la automatización de los correos de venta.,positivo,0.9266,pysentimiento
+244,El despliegue fue caótico y afectó nuestra operación diaria.,negativo,-0.9711,pysentimiento
+245,El sistema es estable y no hemos tenido caídas.,positivo,0.5664,pysentimiento
+246,Un servicio mediocre que solo busca cobrar la licencia.,neutro,0.0,vader
+247,La configuración de impuestos es correcta y cumple la ley.,neutro,0.0,pysentimiento
+248,¡Brillante! La solución que implementaron nos ahorra horas de trabajo.,positivo,0.504,pysentimiento
+249,"El consultor fue amable, pero no resolvió mis dudas técnicas.",negativo,-0.5986,pysentimiento
+250,El proceso de implementación fue lineal y predecible.,negativo,-0.845,pysentimiento
+251,"El módulo de CRM es una pesadilla, nada es intuitivo.",negativo,-0.9744,pysentimiento
+252,"La herramienta es útil, aunque el soporte es algo lento.",positivo,0.6119,pysentimiento
+253,Muy profesionales en el análisis de requerimientos iniciales.,positivo,0.5757,pysentimiento
+254,La migración de datos dejó muchos errores de formato.,negativo,-0.8583,pysentimiento
+255,"El ERP hace lo que debe hacer, sin más.",negativo,-0.5377,pysentimiento
+256,Siento que el sistema es demasiado complejo para mi equipo.,neutro,0.0,vader
+257,"Excelente despliegue, cero errores en el pase a producción.",positivo,0.9113,pysentimiento
+258,La configuración de la nómina es un desastre total. ❌,negativo,-0.9638,pysentimiento
+259,Tuvimos una reunión de seguimiento cada viernes.,neutro,0.0,pysentimiento
+260,"El servicio post-venta es excepcional, siempre están ahí.",positivo,0.9349,pysentimiento
+261,"Odoo es genial, pero la implementación de ustedes fue lenta.",negativo,-0.8899,pysentimiento
+262,El software está operativo en todas las sedes.,neutro,0.0,pysentimiento
+263,Me encanta la flexibilidad que tiene el sistema ahora.,neutro,0.0,vader
+264,Hubo malentendidos constantes sobre el alcance del proyecto.,neutro,0.0,vader
+265,El servicio fue aceptable considerando el precio.,neutro,0.0,vader
+266,No pudieron integrar el ERP con nuestro software de logística.,negativo,-0.9229,pysentimiento
+267,La capacitación fue dinámica y muy bien estructurada.,positivo,0.9632,pysentimiento
+268,El sistema se bloquea al intentar importar masivamente clientes.,neutro,0.0,vader
+269,El proceso de instalación fue estándar y sin sobresaltos.,positivo,0.8479,pysentimiento
+270,¡Impresionante! La visibilidad del negocio es total ahora.,positivo,0.8225,pysentimiento
+271,El consultor no sabía manejar las excepciones del flujo de caja.,neutro,0.0,pysentimiento
+272,"El ERP es funcional, aunque la estética es mejorable.",neutro,0.0,pysentimiento
+273,Un trabajo mediocre que nos dejó con más dudas que respuestas.,negativo,-0.9766,pysentimiento
+274,"La implementación fue rápida, quizás demasiado rápida.",neutro,0.0,pysentimiento
+275,Súper agradecido por la paciencia del equipo técnico.,positivo,0.967,pysentimiento
+276,El módulo de manufactura es confuso y mal configurado.,negativo,-0.9708,pysentimiento
+277,El sistema responde bien bajo carga de usuarios.,neutro,0.0,vader
+278,Siento que el proyecto se alargó más de lo necesario.,negativo,-0.9116,pysentimiento
+279,La configuración de los dashboards es una maravilla. 📊,positivo,0.8026,pysentimiento
+280,El soporte técnico es muy burocrático y lento.,negativo,-0.9769,pysentimiento
+281,Recibimos el acceso al sistema el viernes a última hora.,neutro,0.0,pysentimiento
+282,"El servicio fue top, recomendados al 100%.",positivo,0.2023,vader
+283,No entienden la diferencia entre un pedido y una orden de venta.,negativo,-0.296,vader
+284,"La herramienta es potente, pero la configuración fue básica.",neutro,0.0,pysentimiento
+285,Logramos optimizar la cadena de suministro gracias a Odoo.,neutro,0.0,vader
+286,El sistema tiene bugs que hacen imposible el cierre mensual.,neutro,0.0,vader
+287,La implementación fue satisfactoria en general.,positivo,0.9461,pysentimiento
+288,El equipo de trabajo fue muy coordinado y puntual.,neutro,0.0,vader
+289,Me parece que el software es inestable en la versión nube.,negativo,-0.9472,pysentimiento
+290,Tuvimos que contratar a otro consultor para arreglar el desastre.,neutro,0.0,vader
+291,"El servicio de implementación fue neutro, cumplieron lo pactado.",neutro,0.0,pysentimiento
+292,El módulo de ventas es la mejor parte de la implementación.,positivo,0.9111,pysentimiento
+293,Demasiada resistencia al cambio por culpa de una mala capacitación.,negativo,-0.9522,pysentimiento
+294,El software funciona correctamente en tablets y móviles.,neutro,0.0,pysentimiento
+295,"Un servicio deficiente, no respondieron a los tickets críticos.",negativo,-0.955,pysentimiento
+296,La transición al nuevo sistema fue fluida y sin dramas.,positivo,0.9117,pysentimiento
+297,El costo final excedió el presupuesto por falta de planificación.,negativo,-0.9352,pysentimiento
+298,El ERP es intuitivo y el personal lo adoptó rápidamente.,neutro,0.0,pysentimiento
+299,La configuración de los almacenes es un caos total.,negativo,-0.9664,pysentimiento
+300,El servicio fue adecuado para las necesidades de la empresa.,neutro,0.0,vader
+301,El consultor demostró mucha experiencia en el sector retail.,positivo,0.7143,pysentimiento
+302,Tardaron demasiado en responder a los cambios solicitados.,neutro,0.0,vader
+303,El despliegue se realizó sin afectar la operación del negocio.,neutro,0.0,pysentimiento
+304,Siento que la implementación fue superficial y apresurada.,negativo,-0.9495,pysentimiento
+305,"El sistema vuela, la optimización de la base de datos fue genial. ⚡",positivo,0.8957,pysentimiento
+306,La documentación entregada es insuficiente y confusa.,negativo,-0.9676,pysentimiento
+307,Odoo es una gran elección y el servicio fue el esperado.,positivo,0.9709,pysentimiento
+308,"Odoo es increíble, pero la implementación de esta empresa fue un horror.",negativo,-0.9721,pysentimiento
+309,El sistema ya está en producción.,neutro,0.0,pysentimiento
+310,¡Gracias por hacer que mi vida sea un infierno con tantos bugs! 🙄,negativo,-0.9661,pysentimiento
+311,La migración a Odoo.sh fue rápida y sin errores.,positivo,0.7647,pysentimiento
+312,"El servicio fue aceptable, aunque el consultor hablaba demasiado.",neutro,0.0,vader
+313,"No pude configurar la API, el soporte no me ayudó.",negativo,-0.9273,pysentimiento
+314,La interfaz es limpia y el flujo de trabajo es lógico.,neutro,0.0,pysentimiento
+315,"Sinceramente, me da igual el ERP mientras funcione la facturación.",negativo,-0.5426,pysentimiento
+316,El despliegue on-premise quedó optimizado al máximo. ⚡,neutro,0.0,pysentimiento
+317,"Una pérdida de tiempo total, no saben configurar la localización fiscal.",negativo,-0.972,pysentimiento
+318,El módulo de compras es funcional.,neutro,0.0,pysentimiento
+319,"Me encanta el soporte, pero odio los precios de las horas extra.",neutro,0.0,vader
+320,"La capacitación fue un sueño, muy didáctica.",positivo,0.9578,pysentimiento
+321,El sistema se cae cada vez que hacemos un cierre de caja.,neutro,0.0,vader
+322,Se instalaron los módulos de ventas y CRM.,neutro,0.0,pysentimiento
+323,"Un servicio mediocre, el consultor no sabía usar Odoo.",negativo,-0.9756,pysentimiento
+324,"El ROI es evidente, hemos reducido costos operativos.",neutro,0.0,vader
+325,"El software es robusto, pero la configuración fue muy básica.",neutro,0.0,pysentimiento
+326,"No recomiendo este servicio, prometieron oro y dieron bronce.",negativo,-0.296,vader
+327,"El despliegue fue normal, sin sorpresas.",negativo,-0.5574,vader
+328,La integración con Shopify es una maravilla.,positivo,0.967,pysentimiento
+329,Tardaron 3 días en responder un ticket crítico. ¡Inaceptable!,negativo,-0.9629,pysentimiento
+330,El proceso de implementación siguió la metodología Agile.,neutro,0.0,pysentimiento
+331,Súper contentos con los dashboards de análisis. 📈,positivo,0.8796,pysentimiento
+332,"El sistema es lento, pero los reportes son exactos.",neutro,0.0,vader
+333,La consultoría fue profesional y el despliegue fue impecable.,positivo,0.9652,pysentimiento
+334,"Me siento frustrado, el sistema no hace lo que acordamos.",negativo,-0.296,vader
+335,El módulo de inventarios está operativo.,neutro,0.0,pysentimiento
+336,¡Qué alegría haber digitalizado la empresa con ustedes!,positivo,0.9685,pysentimiento
+337,"El consultor fue muy amable, aunque no resolvió el problema.",positivo,0.4905,pysentimiento
+338,"El software es intuitivo, pero la base de datos está mal indexada.",negativo,-0.8057,pysentimiento
+339,"El servicio fue estándar, ni bueno ni malo.",neutro,0.0,pysentimiento
+340,"Una implementación desastrosa, tuvimos que empezar de cero.",negativo,-0.942,pysentimiento
+341,El flujo de aprobación de gastos funciona perfectamente.,positivo,0.5124,pysentimiento
+342,"El soporte técnico es lento, pero efectivo al final.",neutro,0.0,pysentimiento
+343,"Odoo es potente, la implementación fue correcta.",positivo,0.948,pysentimiento
+344,"No saben configurar los webhooks, tuvimos que hacerlo nosotros.",negativo,-0.296,vader
+345,Recibimos la documentación el lunes.,neutro,0.0,pysentimiento
+346,"El sistema es una joya, la eficiencia subió un 30%.",positivo,0.9462,pysentimiento
+347,Me vendieron la versión Enterprise pero el soporte es de versión Community.,neutro,0.0,pysentimiento
+348,La configuración de la nómina es un laberinto sin salida.,negativo,-0.9292,pysentimiento
+349,El despliegue fue satisfactorio.,neutro,0.0,vader
+350,"Excelente gestión del cambio, el personal está feliz.",positivo,0.966,pysentimiento
+351,Sarcasmo puro: Gracias por borrarme los datos de clientes. 🙃,neutro,0.0,vader
+352,El ERP cumple con los requisitos legales del país.,neutro,0.0,pysentimiento
+353,El tiempo de respuesta es aceptable.,neutro,0.0,vader
+354,"La implementación fue un caos, el equipo no coordinaba nada.",negativo,-0.9797,pysentimiento
+355,Me encanta cómo quedaron los reportes de ventas.,positivo,0.9584,pysentimiento
+356,"El software funciona, pero la curva de aprendizaje es brutal.",negativo,-0.6249,vader
+357,"Un servicio de 10, muy recomendados.",neutro,0.0,vader
+358,La parametrización de los almacenes es confusa.,negativo,-0.8572,pysentimiento
+359,El sistema está estable desde la última actualización.,neutro,0.0,pysentimiento
+360,No pudieron resolver el problema de la sincronización de stock.,negativo,-0.926,pysentimiento
+361,El despliegue fue remoto y eficiente.,neutro,0.0,vader
+362,La capacitación fue insuficiente para el nivel de complejidad.,negativo,-0.9223,pysentimiento
+363,Odoo es la mejor decisión que hemos tomado.,positivo,0.9396,pysentimiento
+364,"El servicio fue regular, esperaba más proactividad.",neutro,0.0,pysentimiento
+365,Tuvimos errores en la migración de saldos iniciales.,negativo,-0.7455,pysentimiento
+366,"El sistema vuela, la optimización fue excelente. 🚀",positivo,0.8482,pysentimiento
+367,El consultor no entendía nuestro modelo de negocio.,negativo,-0.596,pysentimiento
+368,La instalación fue sencilla y rápida.,positivo,0.8198,pysentimiento
+369,El módulo de CRM es básicamente un Excel glorificado.,neutro,0.0,pysentimiento
+370,Súper profesional el equipo de implementación.,positivo,0.9536,pysentimiento
+371,El soporte es inexistente después de que pagas la factura.,negativo,-0.8951,pysentimiento
+372,La transición fue gradual y bien gestionada.,positivo,0.9206,pysentimiento
+373,"El ERP es funcional, aunque la UI es un poco saturada.",neutro,0.0,vader
+374,"No recomiendo la implementación rápida, dejan todo a medias.",negativo,-0.9447,pysentimiento
+375,El sistema es estable en la nube.,neutro,0.0,vader
+376,¡Impresionante el nivel de detalle en la configuración!,positivo,0.8799,pysentimiento
+377,Tuvimos que contratar a un experto externo para arreglar el desastre.,neutro,0.0,vader
+378,El proceso fue lineal y sin complicaciones.,negativo,-0.5574,vader
+379,El módulo de contabilidad es un dolor de cabeza constante.,negativo,-0.9772,pysentimiento
+380,El servicio fue adecuado al precio pagado.,neutro,0.0,vader
+381,Me encanta la automatización de las órdenes de compra.,positivo,0.9261,pysentimiento
+382,El despliegue fue improvisado y lleno de errores.,neutro,0.0,vader
+383,El software hace lo que dice el manual de Odoo.,neutro,0.0,vader
+384,"Excelente comunicación, nos mantuvieron informados siempre.",positivo,0.9476,pysentimiento
+385,El sistema es inestable bajo mucha carga de usuarios.,neutro,0.0,vader
+386,La configuración de impuestos es correcta.,neutro,0.0,pysentimiento
+387,Me siento engañado con las funcionalidades prometidas.,negativo,-0.9185,pysentimiento
+388,El despliegue fue exitoso y a tiempo.,neutro,0.0,vader
+389,"El consultor fue muy técnico, pero poco pedagógico.",negativo,-0.8754,pysentimiento
+390,Súper satisfechos con el resultado final. ✅,positivo,0.8671,pysentimiento
+391,La migración de datos fue un proceso tedioso y lento.,negativo,-0.9716,pysentimiento
+392,"El ERP es potente, aunque la implementación fue mediocre.",positivo,0.3751,pysentimiento
+393,La capacitación fue muy dinámica.,positivo,0.9484,pysentimiento
+394,El sistema se bloquea al generar el balance general.,neutro,0.0,vader
+395,"El servicio fue neutro, cumplieron el contrato.",neutro,0.0,vader
+396,La integración con la pasarela de pagos fue un éxito.,positivo,0.9267,pysentimiento
+397,No saben manejar el módulo de manufactura.,negativo,-0.9671,pysentimiento
+398,El software es moderno y eficiente.,neutro,0.0,vader
+399,"Tuvimos problemas con el servidor, pero lo resolvieron.",neutro,0.0,vader
+400,El despliegue fue correcto y sin incidentes.,negativo,-0.5574,vader
+401,Me encanta la visibilidad que tengo de mi equipo ahora.,neutro,0.0,vader
+402,El soporte es burocrático y lento.,negativo,-0.9605,pysentimiento
+403,"Odoo es genial, pero el servicio de implementación fue lento.",negativo,-0.8061,pysentimiento
+404,La configuración de los usuarios quedó perfecta.,positivo,0.9385,pysentimiento
+405,El sistema es inestable en horas pico.,neutro,0.0,vader
+406,El servicio fue profesional y puntual.,neutro,0.0,vader
+407,"No recomiendo este equipo, no tienen experiencia en retail.",negativo,-0.5267,vader
+408,El despliegue se hizo en el tiempo acordado.,neutro,0.0,vader
+409,La automatización de marketing es una herramienta increíble.,positivo,0.8899,pysentimiento
+410,El ERP es demasiado complejo para una empresa pequeña.,negativo,-0.9645,pysentimiento
+411,Súper agradecido por el soporte post-implementación.,positivo,0.9319,pysentimiento
+412,"El sistema es funcional, nada más.",neutro,0.0,pysentimiento
+413,"La implementacion fue ok, nada del otro mundo.",neutro,0.0,vader
+414,¡ESTOY HARTO DE QUE EL SISTEMA SE CAIGA! 🤬,negativo,-0.977,pysentimiento
+415,"El modulo de POS vuela, mis cajeros estan super contentos.",positivo,0.5994,vader
+416,El consultor no tenia ni idea de como configurar el inventario.,negativo,-0.296,vader
+417,Llegaron a tiempo a la reunion de hoy.,neutro,0.0,vader
+418,"Sinceramente, el ERP es un laberinto, no entiendo nada.",negativo,-0.296,vader
+419,"Buen servicio, el equipo fue muy proactiva.",neutro,0.0,vader
+420,"El software funciona, pero el color de la interfaz es feo.",neutro,0.0,vader
+421,"Me vendieron humo con la automatizacion, sigo haciendo todo a mano.",neutro,0.0,vader
+422,"Odoo es potente, pero la configuracion fue muy basica.",neutro,0.0,vader
+423,Tuvimos un problema con el servidor el lunes pasado.,neutro,0.0,vader
+424,¡Increible! La visibilidad de mis ventas subio un 40%. 🚀,neutro,0.0,pysentimiento
+425,"No recomiendo este servicio, son muy lentos para responder.",negativo,-0.296,vader
+426,"El despliegue fue satisfactorio, todo en orden.",neutro,0.0,vader
+427,"La verdad que el soporte es un bajon, no ayudan en nada.",negativo,-0.296,vader
+428,Se instalaron los modulos de compras y ventas.,neutro,0.0,vader
+429,"El ROI es positivo, recuperamos la inversion rapido.",neutro,0.0,vader
+430,"La capacitacion fue un embole, me dormia en la reunion.",neutro,0.0,vader
+431,"El sistema es estable, aunque la carga de datos fue lenta.",neutro,0.0,vader
+432,"Me encanta como quedaron los reportes, muy visuales. ✅",neutro,0.0,vader
+433,Tuvimos que pagar extras que no estaban en el contrato.,negativo,-0.296,vader
+434,El consultor fue amable pero no resolvio el problema tecnico.,negativo,-0.296,vader
+435,El ERP esta operativo en la oficina central.,neutro,0.0,vader
+436,"Pessimo servicio, no saben ni lo que es un flujo de caja.",negativo,-0.296,vader
+437,"La migración de datos fue impecable, cero errores.",positivo,0.9569,pysentimiento
+438,"El software es intuitivo, el personal se adapto rapido.",neutro,0.0,vader
+439,El precio es justo por lo que ofrecen.,neutro,0.0,vader
+440,¡Que desastre! Borraron la base de datos de prueba. 😱,negativo,-0.9659,pysentimiento
+441,Odoo es una gran herramienta y el servicio fue top.,positivo,0.2023,vader
+442,La configuracion de los impuestos fue un dolor de cabeza.,neutro,0.0,vader
+443,Recibimos el acceso al sistema el viernes.,neutro,0.0,vader
+444,No me gusta como manejaron la comunicacion del proyecto.,negativo,-0.296,vader
+445,"El modulo de manufactura es una joya, optimizamos todo.",neutro,0.0,vader
+446,"El servicio fue regular, ni bueno ni malo.",neutro,0.0,vader
+447,Tardaron siglos en configurar la factura electronica.,neutro,0.0,vader
+448,La implementacion fue fluida y sin contratiempos.,negativo,-0.5574,vader
+449,Siento que pagamos mucho por algo muy sencillo.,neutro,0.0,vader
+450,"El soporte tecnico es aceptable, responden en 24h.",neutro,0.0,vader
+451,¡Brillante! El sistema de alertas nos salvo de errores graves.,negativo,-0.9159,pysentimiento
+452,El consultor no entendia nuestro modelo de negocio.,negativo,-0.296,vader
+453,Se configuraron los permisos de usuario segun la jerarquia.,neutro,0.0,vader
+454,La interfaz es limpia y facil de usar.,neutro,0.0,vader
+455,"No recomiendo contratar el soporte mensual, es carisimo.",negativo,-0.296,vader
+456,"El despliegue fue normal, siguiendo el manual.",neutro,0.0,vader
+457,Muy satisfechos con la rapidez de la entrega. 🌟,neutro,0.0,vader
+458,El sistema se bloquea cuando hay muchos pedidos.,neutro,0.0,vader
+459,Tuvimos una sesion de dudas el miercoles.,neutro,0.0,vader
+460,La parametrizacion de la nomina esta llena de errores.,neutro,0.0,vader
+461,"El software hace lo que necesitamos, nada mas.",neutro,0.0,vader
+462,¡Que gran equipo! Resolvieron todo en tiempo record.,positivo,0.9695,pysentimiento
+463,"El servicio post-venta es inexistente, nos dejaron tirados.",neutro,0.0,vader
+464,La transicion al nuevo ERP fue gradual.,neutro,0.0,vader
+465,El sistema es intuitivo y el personal lo usa bien.,neutro,0.0,vader
+466,"Sinceramente, fue una perdida de tiempo y plata.",neutro,0.0,vader
+467,Se implementaron los flujos de aprobacion de gastos.,neutro,0.0,vader
+468,"Excelente soporte, resolvieron mi duda en minutos.",neutro,0.0,vader
+469,El ERP es complejo y la capacitacion fue muy superficial.,neutro,0.0,vader
+470,"El despliegue fue normal, sin sobresaltos.",negativo,-0.5574,vader
+471,Estoy fascinado con el control que tengo ahora.,neutro,0.0,vader
+472,Hubo mucha desorganisacion en las reuniones.,neutro,0.0,vader
+473,El sistema funciona bien en Chrome.,neutro,0.0,vader
+474,"Un servicio de lujo, el despliegue fue perfecto.",positivo,0.3182,vader
+475,El modulo de contabilidad no cuadra con la realidad.,negativo,-0.296,vader
+476,El costo se mantuvo dentro del presupuesto.,neutro,0.0,vader
+477,La herramienta es util pero la curva de aprendizaje es alta.,neutro,0.0,vader
+478,No pudieron resolver la integracion con el banco.,negativo,-0.4055,vader
+479,"Super profesionales, el ERP quedo a medida.",positivo,0.5994,vader
+480,El proceso de instalacion fue sencillo.,neutro,0.0,vader
+481,Me parece que el sistema es demasiado para lo que ocupamos.,neutro,0.0,vader
+482,"El soporte es mediocre, solo dan respuestas copiadas.",neutro,0.0,vader
+483,¡Por fin un ERP que no es una pesadilla!,positivo,0.6685,pysentimiento
+484,Se configuraron los accesos remotos.,neutro,0.0,vader
+485,"El despliegue fue improvisado, se noto la falta de experiencia.",neutro,0.0,vader
+486,"La calidad del servicio es excepcional, recomendados.",neutro,0.0,vader
+487,"Odoo es bueno, pero la configuracion fue pobre.",neutro,0.0,vader
+488,Tuvimos que hacer ajustes manuales por errores del consultor.,neutro,0.0,vader
+489,El sistema esta en modo produccion desde ayer.,neutro,0.0,vader
+490,Muy contentos con la rapidez de la implementacion.,neutro,0.0,vader
+491,El modulo de ventas es confuso y la gente se queja.,neutro,0.0,vader
+492,El servicio fue adecuado para el precio.,neutro,0.0,vader
+493,El equipo tecnico domina Odoo al 100%.,neutro,0.0,vader
+494,Tardaron semanas en hacer un reporte simple.,neutro,0.0,vader
+495,"La implementacion fue estandar, sin cambios.",negativo,-0.5574,vader
+496,El ROI ha sido impresionante. 💰,positivo,0.34,vader
+497,El sistema es lento con mas de 15 usuarios.,neutro,0.0,vader
+498,La comunicacion fue fluida por Whatsapp.,neutro,0.0,vader
+499,"No cumplieron los plazos, un desastre total.",negativo,-0.296,vader
+500,"La herramienta es potente, requiere buen servidor.",neutro,0.0,vader
+501,Me encanta la flexibilidad de la configuracion.,neutro,0.0,vader
+502,El consultor fue distante y no mostro interes.,negativo,-0.296,vader
+503,Se instalo el modulo de CRM y el de Almacenes.,neutro,0.0,vader
+504,"El servicio fue impecable, de principio a fin.",neutro,0.0,vader
+505,La migracion de datos dejo muchos campos vacios.,neutro,0.0,vader
+506,"El ERP es funcional, cumple el contrato.",neutro,0.0,vader
+507,"Super mala experiencia, no responden los mails.",positivo,0.4019,vader
+508,La capacitacion fue dinamica y util.,neutro,0.0,vader
+509,El sistema es estable pero la UI se siente vieja.,neutro,0.0,vader
+510,Logramos reducir el tiempo de facturacion. ¡Genial!,positivo,0.9533,pysentimiento
+511,El despliegue tuvo errores criticos al inicio.,neutro,0.0,vader
+512,Recibimos el manual en PDF.,neutro,0.0,vader
+513,"Un trabajo impecable, el sistema vuela. ⚡",neutro,0.0,vader
+514,No saben configurar la localizacion fiscal.,negativo,-0.296,vader
+515,"El proceso fue normal, sin grandes fallos.",negativo,-0.5574,vader
+516,El sistema es aceptable.,neutro,0.0,vader
+517,¡Una joya! El módulo de MRP optimizó nuestra planta de producción. ⚙️,positivo,0.8493,pysentimiento
+518,"El soporte técnico no cumple con los SLAs acordados, son lentos.",negativo,-0.9653,pysentimiento
+519,"La implementación fue correcta, aunque el presupuesto se excedió un poco.",positivo,0.5346,pysentimiento
+520,Me parece que el software es demasiado complejo para nuestro flujo.,neutro,0.0,vader
+521,Súper contentos con la integración de la pasarela de pagos.,positivo,0.9373,pysentimiento
+522,El consultor fue muy profesional durante las pruebas UAT.,neutro,0.0,vader
+523,"No recomiendo el servicio, hubo demasiados cuellos de botella.",negativo,-0.296,vader
+524,"Odoo es potente, pero la configuración de la empresa fue mediocre.",negativo,-0.8644,pysentimiento
+525,Recibimos el informe de avance el jueves pasado.,neutro,0.0,vader
+526,"El sistema de inventarios es un caos, nada cuadra con el físico. ❌",negativo,-0.9661,pysentimiento
+527,"Excelente gestión de los tiempos, terminaron antes de lo previsto.",neutro,0.0,pysentimiento
+528,"La interfaz es intuitiva, pero el rendimiento en la nube es regular.",neutro,0.0,vader
+529,Siento que la capacitación fue muy superficial para los usuarios.,negativo,-0.9698,pysentimiento
+530,Todo funciona según lo planeado en el cronograma.,neutro,0.0,pysentimiento
+531,El módulo de CRM nos ayudó a cerrar más ventas este trimestre.,neutro,0.0,pysentimiento
+532,"El despliegue fue un desastre, el sistema estuvo caído dos días.",negativo,-0.9598,pysentimiento
+533,El precio es competitivo comparado con SAP o Oracle.,neutro,0.0,vader
+534,¡Increíble! La automatización de la contabilidad nos ahorra días de trabajo.,positivo,0.8202,pysentimiento
+535,El consultor no sabía explicar la diferencia entre variantes y modelos.,neutro,0.0,pysentimiento
+536,La migración de datos fue tediosa pero exitosa.,neutro,0.0,pysentimiento
+537,"Un servicio mediocre, se nota que no conocen nuestro sector.",negativo,-0.296,vader
+538,"El ERP está operativo, aunque faltan algunos ajustes menores.",neutro,0.0,pysentimiento
+539,Súper agradecido por la paciencia del equipo técnico. ✅,positivo,0.9412,pysentimiento
+540,La configuración de la localización fiscal es errónea.,negativo,-0.8833,pysentimiento
+541,"El sistema es estable, no hemos tenido caídas críticas.",neutro,0.0,pysentimiento
+542,Me encanta la visibilidad de los KPIs en el tablero principal.,neutro,0.0,vader
+543,"El soporte es muy burocrático, piden demasiados requisitos.",negativo,-0.9702,pysentimiento
+544,"La implementación se dividió en tres fases, todo normal.",neutro,0.0,pysentimiento
+545,¡Qué horror! El módulo de nómina calcula mal las horas extra. 😡,negativo,-0.9788,pysentimiento
+546,"Odoo es una herramienta fantástica, el servicio fue el esperado.",positivo,0.9733,pysentimiento
+547,El proceso de preventa prometió cosas que la implementación no dio.,negativo,-0.5367,pysentimiento
+548,"La herramienta es útil, pero requiere un servidor muy potente.",positivo,0.8087,pysentimiento
+549,Tuvimos problemas con la sincronización de la tienda online.,negativo,-0.9003,pysentimiento
+550,Muy profesional el análisis de procesos inicial.,positivo,0.9071,pysentimiento
+551,El software es lento al generar el libro mayor.,neutro,0.0,vader
+552,La capacitación fue dinámica y el material es muy útil.,positivo,0.9735,pysentimiento
+553,"No me gusta la actitud del gestor del proyecto, es muy distante.",negativo,-0.296,vader
+554,El despliegue fue satisfactorio y sin errores graves.,negativo,-0.7003,vader
+555,"El sistema es funcional, cumple con los requerimientos básicos.",neutro,0.0,pysentimiento
+556,¡Brillante! Logramos reducir el stock muerto gracias al ERP.,positivo,0.7303,pysentimiento
+557,El consultor fue amable pero no tenía respuestas técnicas.,neutro,0.0,pysentimiento
+558,Tuvimos que rehacer la configuración de almacenes por errores internos.,negativo,-0.888,pysentimiento
+559,"La herramienta vuela, la optimización fue impecable. ⚡",positivo,0.8813,pysentimiento
+560,"El soporte técnico es aceptable, aunque tardan en responder.",positivo,0.5436,pysentimiento
+561,Siento que el sistema es más una carga que una ayuda ahora mismo.,negativo,-0.9729,pysentimiento
+562,Excelente comunicación a través de Teams.,positivo,0.8653,pysentimiento
+563,La parametrización de los impuestos es correcta y legal.,neutro,0.0,pysentimiento
+564,El despliegue fue improvisado y se notó la falta de experiencia.,negativo,-0.9038,pysentimiento
+565,El software hace lo que dice el manual de Odoo.,neutro,0.0,vader
+566,"No recomiendo a esta empresa, no entienden de logística.",negativo,-0.9408,pysentimiento
+567,El proceso de implementación fue lineal y predecible.,negativo,-0.845,pysentimiento
+568,¡Impresionante! El control de calidad mejoró un 20%.,positivo,0.8953,pysentimiento
+569,El sistema es inestable en horas de cierre mensual.,neutro,0.0,vader
+570,Recibimos la documentación técnica el viernes.,neutro,0.0,pysentimiento
+571,"La interfaz es limpia, pero el flujo de ventas es confuso.",neutro,0.0,vader
+572,"Un trabajo impecable, el sistema quedó a medida. 🚀",positivo,0.7823,pysentimiento
+573,La migración de clientes fue un proceso lento y con errores.,negativo,-0.9474,pysentimiento
+574,"El servicio fue neutro, hicieron lo justo y necesario.",neutro,0.0,vader
+575,Me encanta la flexibilidad de los reportes personalizados.,neutro,0.0,vader
+576,El soporte es inexistente una vez que termina la garantía.,negativo,-0.6871,pysentimiento
+577,La transición al nuevo sistema fue fluida.,positivo,0.7869,pysentimiento
+578,"El ERP es potente, pero la implementación fue muy apresurada.",negativo,-0.7834,pysentimiento
+579,La capacitación fue insuficiente para el personal operativo.,negativo,-0.958,pysentimiento
+580,Súper satisfechos con el resultado final del proyecto.,positivo,0.9625,pysentimiento
+581,El módulo de compras es redundante para nuestro proceso.,positivo,0.7341,pysentimiento
+582,El despliegue fue correcto y en el tiempo acordado.,neutro,0.0,vader
+583,No saben configurar el flujo de aprobación de facturas.,negativo,-0.9091,pysentimiento
+584,El sistema es intuitivo y la adopción fue rápida.,positivo,0.5608,pysentimiento
+585,Me siento defraudado por la falta de seguimiento post-venta.,neutro,0.0,vader
+586,El servicio fue adecuado para el costo pagado.,neutro,0.0,vader
+587,¡Qué gran equipo! Resolvieron el problema de la API en horas.,positivo,0.8225,pysentimiento
+588,El software es estable pero la UI es un poco saturada.,neutro,0.0,vader
+589,Tuvimos una reunión de seguimiento cada dos semanas.,neutro,0.0,pysentimiento
+590,La configuración de los usuarios quedó perfecta.,positivo,0.9385,pysentimiento
+591,"El despliegue fue un caos total, no hubo plan de rollback.",negativo,-0.3597,vader
+592,"La calidad del servicio es excepcional, muy recomendados.",neutro,0.0,vader
+593,"Odoo es bueno, pero el soporte de esta empresa es pobre.",neutro,0.0,vader
+594,El sistema responde bien bajo carga de usuarios.,neutro,0.0,vader
+595,"La implementación fue estándar, sin personalizaciones.",negativo,-0.5031,pysentimiento
+596,Siento que el proyecto se alargó por falta de organización.,negativo,-0.9737,pysentimiento
+597,La configuración de los dashboards es una maravilla. 📊,positivo,0.8026,pysentimiento
+598,El soporte técnico es lento y poco resolutivo.,negativo,-0.9667,pysentimiento
+599,Recibimos el acceso al sistema en la fecha pactada.,neutro,0.0,vader
+600,"El servicio fue top, el despliegue fue quirúrgico.",positivo,0.937,pysentimiento
+601,No entienden la diferencia entre un pedido y una cotización.,negativo,-0.7522,pysentimiento
+602,"La herramienta es potente, aunque la curva de aprendizaje es alta.",neutro,0.0,vader
+603,Logramos optimizar la cadena de suministro. ¡Genial!,positivo,0.9656,pysentimiento
+604,El sistema tiene bugs que afectan el cierre de mes.,neutro,0.0,vader
+605,La implementación fue satisfactoria en general.,positivo,0.9461,pysentimiento
+606,El equipo de trabajo fue coordinado y puntual.,neutro,0.0,vader
+607,Me parece que la versión nube es más lenta que la local.,negativo,-0.9049,pysentimiento
+608,Tuvimos que contratar a otro consultor para arreglar los errores.,neutro,0.0,vader
+609,"El servicio de implementación fue neutro, cumplieron lo pactado.",neutro,0.0,pysentimiento
+610,El módulo de ventas es lo mejor de todo el sistema.,positivo,0.9447,pysentimiento
+611,Demasiada resistencia al cambio por una mala capacitación.,negativo,-0.9329,pysentimiento
+612,El software funciona correctamente en móviles.,neutro,0.0,pysentimiento
+613,"Un servicio deficiente, no respondieron a los tickets urgentes.",negativo,-0.296,vader
+614,La transición fue sin dramas.,neutro,0.0,pysentimiento
+615,El costo final excedió el presupuesto inicial.,negativo,-0.7465,pysentimiento
+616,El ERP es intuitivo y el equipo lo usa bien.,neutro,0.0,vader
+617,La configuración de almacenes es un desastre.,negativo,-0.9711,pysentimiento
+618,El servicio fue adecuado para las necesidades de la pyme.,neutro,0.0,vader
+619,El consultor demostró mucha experiencia en retail.,positivo,0.7154,pysentimiento
+620,Tardaron demasiado en aplicar los cambios solicitados.,neutro,0.0,vader
+621,Mal.,neutro,0.0,vader
+622,¡Súper! 🌟,neutro,0.0,pysentimiento
+623,Normal.,neutro,0.0,vader
+624,No sirve.,negativo,-0.296,vader
+625,Excelente trabajo.,neutro,0.0,vader
+626,Mucho mejor que el Excel que usábamos antes.,positivo,0.6817,pysentimiento
+627,"Agradecemos el esfuerzo, pero los resultados no son los esperados.",negativo,-0.296,vader
+628,"El sistema es estable, aunque la velocidad de respuesta es mediocre.",neutro,0.0,vader
+629,Peor que SAP en cuanto a soporte técnico.,negativo,-0.9547,pysentimiento
+630,Muy bien.,neutro,0.0,vader
+631,No recomiendo.,negativo,-0.296,vader
+632,"El módulo de ventas es top, pero la contabilidad es un desastre.",negativo,-0.8218,pysentimiento
+633,Regular.,neutro,0.0,vader
+634,¡LA MEJOR INVERSIÓN DEL AÑO! 🚀,positivo,0.7959,pysentimiento
+635,Sigue sin funcionar el módulo de nómina.,negativo,-0.9055,pysentimiento
+636,Es aceptable.,neutro,0.0,vader
+637,"El servicio fue cordial, aunque la efectividad dejó mucho que desear.",positivo,0.675,pysentimiento
+638,Me encanta.,neutro,0.0,vader
+639,Odio este sistema.,neutro,0.0,vader
+640,Ni fu ni fa.,negativo,-0.6908,vader
+641,Parecido a Dynamics pero mucho más ágil en la implementación.,neutro,0.0,pysentimiento
+642,"Quedamos a la espera de una solución real, no de más promesas.",negativo,-0.669,pysentimiento
+643,Impecable.,neutro,0.0,vader
+644,Un horror.,negativo,-0.5719,vader
+645,Estándar.,neutro,0.0,pysentimiento
+646,"La migración fue rápida, pero los datos quedaron mal mapeados.",negativo,-0.8402,pysentimiento
+647,Satisfecho.,neutro,0.0,vader
+648,Frustrado.,neutro,0.0,vader
+649,CUMPLE.,neutro,0.0,vader
+650,No llega al nivel de profesionalismo que prometieron en la demo.,negativo,-0.296,vader
+651,"El despliegue fue quirúrgico, cero errores.",positivo,0.6545,pysentimiento
+652,Demasiado lento.,neutro,0.0,vader
+653,Es lo que hay.,neutro,0.0,vader
+654,Me sorprendió gratamente la capacidad del consultor.,positivo,0.9711,pysentimiento
+655,No entiendo por qué costó tanto dinero si es tan básico.,negativo,-0.9263,pysentimiento
+656,Perfecto.,positivo,0.3182,vader
+657,Inaceptable.,neutro,0.0,vader
+658,Todo en orden.,neutro,0.0,vader
+659,"Me gusta la herramienta, pero el soporte es un cuello de botella.",neutro,0.0,vader
+660,Increíble.,positivo,0.5705,pysentimiento
+661,Decepcionante.,neutro,0.0,vader
+662,Pasable.,neutro,0.0,vader
+663,Siento que estamos aprendiendo a usar el sistema a costa de nuestros errores.,neutro,0.0,vader
+664,"El ROI es impresionante, gracias equipo.",neutro,0.0,vader
+665,Tardaron demasiado.,neutro,0.0,vader
+666,Sin novedades.,negativo,-0.5574,vader
+667,"El módulo de CRM es una maravilla, el de inventarios es un laberinto.",positivo,0.6541,pysentimiento
+668,Genial.,positivo,0.4215,vader
+669,Pésimo.,negativo,-0.9039,pysentimiento
+670,Meh.,negativo,-0.0772,vader
+671,"La interfaz es moderna, pero el flujo de procesos es arcaico.",neutro,0.0,vader
+672,Muy profesional.,neutro,0.0,vader
+673,Nada recomendable.,neutro,0.0,vader
+674,Correcto.,neutro,0.0,vader
+675,"Sinceramente, prefería el sistema viejo que al menos funcionaba.",neutro,0.0,pysentimiento
+676,10/10.,neutro,0.0,vader
+677,0/10.,neutro,0.0,vader
+678,Suficiente.,neutro,0.0,vader
+679,"El despliegue fue exitoso, pero la capacitación fue un chiste.",negativo,-0.5587,pysentimiento
+680,Fantástico.,positivo,0.4892,pysentimiento
+681,Mediocre.,neutro,0.0,vader
+682,Como siempre.,neutro,0.0,vader
+683,"El equipo técnico es brillante, pero la gestión del proyecto fue un caos.",negativo,-0.9255,pysentimiento
+684,Súper eficiente.,positivo,0.7055,pysentimiento
+685,Muy ineficiente.,neutro,0.0,vader
+686,Aceptable.,neutro,0.0,vader
+687,Me parece increíble que sigan sin resolver el bug de la factura electrónica.,negativo,-0.978,pysentimiento
+688,Espléndido.,positivo,0.5025,pysentimiento
+689,Desastroso.,neutro,0.0,vader
+690,Ni bueno ni malo.,neutro,0.0,vader
+691,"Odoo es potente, pero la implementación de ustedes fue muy superficial.",negativo,-0.928,pysentimiento
+692,Muy contento.,neutro,0.0,vader
+693,Muy molesto.,neutro,0.0,vader
+694,Normalito.,neutro,0.0,vader
+695,"El soporte es amable, pero no soluciona los problemas de fondo.",negativo,-0.296,vader
+696,Brillante.,neutro,0.0,vader
+697,Horrible.,negativo,-0.5423,vader
+698,Sencillo.,neutro,0.0,vader
+699,Siento que nos vendieron un Ferrari pero nos entregaron un coche usado.,neutro,0.0,vader
+700,Magnífico.,neutro,0.0,pysentimiento
+701,Lamentable.,negativo,-0.3612,vader
+702,Estable.,neutro,0.0,vader
+703,"La automatización de marketing funciona, pero el CRM es confuso.",negativo,-0.5336,pysentimiento
+704,Impresionante.,neutro,0.0,vader
+705,Deplorable.,neutro,0.0,vader
+706,Apropiado.,neutro,0.0,vader
+707,"El consultor sabe mucho, pero no tiene paciencia para enseñar.",negativo,-0.7812,pysentimiento
+708,Espectacular.,neutro,0.0,vader
+709,Vergonzoso.,neutro,0.0,vader
+710,Suficiente.,neutro,0.0,vader
+711,"La integración con Shopify fue un éxito total, el resto es regular.",positivo,0.9441,pysentimiento
+712,Maravilloso.,neutro,0.0,vader
+713,Inútil.,negativo,-0.4476,pysentimiento
+714,Promedio.,neutro,0.0,vader
+715,Gracias por hacernos perder tres meses de trabajo con una mala configuración.,negativo,-0.9681,pysentimiento
+716,Top.,positivo,0.2023,vader
+717,Basura.,neutro,0.0,vader
+718,Operativo.,neutro,0.0,vader
+719,"El sistema vuela, pero el soporte tarda siglos en responder.",neutro,0.0,vader
+720,Excepcional.,neutro,0.0,vader
+721,Nulo.,neutro,0.0,vader
+722,Sistemático.,negativo,-0.6369,pysentimiento
+723,"Me encanta la flexibilidad, pero odio la complejidad de la configuración.",neutro,0.0,pysentimiento
+724,Súper rápido.,neutro,0.0,pysentimiento
+725,Súper lento.,negativo,-0.6652,pysentimiento
+726,Equilibrado.,neutro,0.0,vader
+727,No sé si llamar a esto una implementación o un experimento.,neutro,0.0,pysentimiento
+728,Perfectamente configurado.,neutro,0.0,vader
+729,Mal parametrizado.,neutro,0.0,vader
+730,Funcional.,neutro,0.0,vader
+731,"El software es una joya, pero el consultor no sabía de impuestos locales.",neutro,0.0,pysentimiento
+732,Muy útil.,positivo,0.9335,pysentimiento
+733,Nada útil.,negativo,-0.4559,pysentimiento
+734,Sostenible.,neutro,0.0,vader
+735,"El despliegue en Odoo.sh fue impecable, la capacitación fue nula.",negativo,-0.9484,pysentimiento
+736,Satisfecho al 100%.,neutro,0.0,vader
+737,Insatisfecho al 100%.,neutro,0.0,vader
+738,Cumple el contrato.,neutro,0.0,vader
+739,"El go-live fue un éxito total, todo salió según el plan.",positivo,0.9684,pysentimiento
+740,"El training fue muy flojo, no entendimos el flujo de los workflows.",negativo,-0.296,vader
+741,"Sinceramente, el deployment fue un desastre, hubo demasiados bugs.",neutro,0.0,vader
+742,"La configuración del backend es estable, nada que reportar.",neutro,0.0,pysentimiento
+743,"Me encanta cómo manejaron el change management, el equipo está motivado.",positivo,0.9722,pysentimiento
+744,"El consultor no sabe qué es un sprint, el proyecto no tiene orden.",negativo,-0.8623,pysentimiento
+745,Todo ok con la migración a la nube.,neutro,0.0,pysentimiento
+746,"El sistema es una basura, el performance es inaceptable. 😡",neutro,0.0,vader
+747,"Tuvimos un problema con los webhooks, pero el support lo arregló rápido.",neutro,0.0,pysentimiento
+748,"Un servicio promedio, ni muy bueno ni muy malo.",neutro,0.0,vader
+749,El setup inicial tomó más tiempo del acordado en el SLA.,neutro,0.0,pysentimiento
+750,¡Increíble! El módulo de Ventas es un game-changer para nosotros. 🚀,neutro,0.0,pysentimiento
+751,"El software es potente, pero la UX es muy confusa.",neutro,0.0,vader
+752,"No recomiendo este partner de Odoo, son unos amateurs.",negativo,-0.296,vader
+753,La parametrización de los taxes quedó perfecta.,positivo,0.9293,pysentimiento
+754,El sistema se crashea cada vez que hacemos un bulk import.,neutro,0.0,vader
+755,Satisfecho con el resultado final del proyecto.,neutro,0.0,vader
+756,El consultor fue muy proactivo con el troubleshooting.,positivo,0.1779,vader
+757,"La implementación fue un caos, el project manager no coordinaba nada.",negativo,-0.9753,pysentimiento
+758,"El ERP funciona, aunque la curva de aprendizaje es muy steep.",neutro,0.0,vader
+759,"Un servicio de 10, el despliegue fue flawless. ✅",positivo,0.5106,vader
+760,"El soporte técnico es muy slow, tardan días en responder un ticket.",negativo,-0.9672,pysentimiento
+761,La integración con la API de Shopify quedó impecable.,positivo,0.9383,pysentimiento
+762,"El sistema es aceptable, cumple con los requerimientos mínimos.",positivo,0.6655,pysentimiento
+763,"Me siento estafado, el scope del proyecto cambió tres veces.",negativo,-0.9543,pysentimiento
+764,"El módulo de CRM es muy intuitivo, nos encanta.",positivo,0.9744,pysentimiento
+765,"La capacitación fue un embole, no hubo casos reales.",negativo,-0.9718,pysentimiento
+766,"El despliegue fue smooth, sin contratiempos.",negativo,-0.5574,vader
+767,"El software es inestable, tenemos demasiados glitches.",neutro,0.0,vader
+768,Todo en orden con la puesta en marcha.,neutro,0.0,vader
+769,El consultor no entendía el business model de la empresa.,neutro,0.0,pysentimiento
+770,"El ROI es evidente, optimizamos los procesos operativos.",neutro,0.0,vader
+771,La configuración de los dashboards es muy potente.,positivo,0.9164,pysentimiento
+772,"El soporte es mediocre, solo dan respuestas genéricas.",negativo,-0.9784,pysentimiento
+773,El go-live se retrasó dos semanas por errores de migración.,negativo,-0.6397,pysentimiento
+774,Súper contentos con la automatización de los flujos de trabajo.,positivo,0.9309,pysentimiento
+775,"El sistema es lento, el performance de la base de datos es pobre.",neutro,0.0,vader
+776,"La implementación fue estándar, sin personalizaciones.",negativo,-0.5031,pysentimiento
+777,¡Qué desastre! El módulo de inventarios no sincroniza. ❌,negativo,-0.9701,pysentimiento
+778,El equipo de consultoría fue muy professional y paciente.,positivo,0.9587,pysentimiento
+779,"La herramienta es útil, pero el setup fue muy engorroso.",negativo,-0.7648,pysentimiento
+780,"Tuvimos problemas con el hosting, pero se resolvieron.",neutro,0.0,vader
+781,"El servicio fue regular, esperaba más proactividad.",neutro,0.0,pysentimiento
+782,El flujo de aprobación de expenses funciona perfecto.,positivo,0.7091,pysentimiento
+783,"No saben configurar el módulo de payroll, es un horror.",negativo,-0.9849,pysentimiento
+784,La transición al nuevo sistema fue muy orgánica.,positivo,0.7575,pysentimiento
+785,"El software es robusto, pero la configuración fue muy básica.",neutro,0.0,pysentimiento
+786,"El consultor fue amable, pero técnicamente muy limitado.",neutro,0.0,pysentimiento
+787,El despliegue fue satisfactorio y a tiempo.,neutro,0.0,vader
+788,Siento que el sistema es demasiado complejo para nuestro staff.,neutro,0.0,vader
+789,"Excelente gestión del backlog, priorizaron lo importante.",positivo,0.92,pysentimiento
+790,"El módulo de compras es redundante, no nos sirve.",negativo,-0.9801,pysentimiento
+791,"El soporte es excepcional, resuelven todo en tiempo récord.",positivo,0.9271,pysentimiento
+792,"El ERP es funcional, aunque la interfaz es un poco old-school.",neutro,0.0,vader
+793,La migración de datos dejó muchos duplicates.,negativo,-0.7522,pysentimiento
+794,"Un trabajo impecable, el sistema vuela. ⚡",neutro,0.0,vader
+795,El consultor no sabe manejar los edge cases del sistema.,negativo,-0.296,vader
+796,La capacitación fue muy dinámica y útil.,positivo,0.9726,pysentimiento
+797,El sistema se congela al generar el Profit and Loss.,positivo,0.1531,vader
+798,"El servicio fue neutro, hicieron lo pactado en el contrato.",neutro,0.0,vader
+799,La integración con la pasarela de pagos fue un hit.,positivo,0.9281,pysentimiento
+800,"No recomiendo este partner, no tienen experiencia en retail.",negativo,-0.5267,vader
+801,El software es moderno y muy eficiente.,neutro,0.0,vader
+802,"Tuvimos bugs en el UAT, pero se corrigieron antes del go-live.",neutro,0.0,vader
+803,El despliegue fue correcto y sin incidentes.,negativo,-0.5574,vader
+804,Me encanta la visibilidad que tengo de los KPIs ahora.,neutro,0.0,vader
+805,El soporte es muy burocrático y lento.,negativo,-0.9728,pysentimiento
+806,"Odoo es genial, pero el servicio de implementación fue mediocre.",negativo,-0.9076,pysentimiento
+807,La configuración de los roles de usuario quedó perfecta.,positivo,0.9162,pysentimiento
+808,El sistema es inestable durante el peak de ventas.,neutro,0.0,vader
+809,El servicio fue profesional y puntual.,neutro,0.0,vader
+810,"No recomiendo este equipo, el delivery fue muy pobre.",negativo,-0.296,vader
+811,El despliegue se hizo en el timeframe acordado.,neutro,0.0,vader
+812,La automatización de marketing es una herramienta top.,positivo,0.9466,pysentimiento
+813,El ERP es demasiado heavy para una empresa pequeña.,negativo,-0.9771,pysentimiento
+814,Súper agradecido por el support post-implementación.,positivo,0.924,pysentimiento
+815,"El sistema es funcional, nada más.",neutro,0.0,pysentimiento
+816,"El consultor fue muy técnico, pero le faltó soft skill.",neutro,0.0,pysentimiento
+817,"La migración fue un dolor de cabeza, pero al final quedó bien.",positivo,0.705,pysentimiento
+818,El setup de Odoo.sh fue rápido y eficiente.,positivo,0.9432,pysentimiento
+819,No saben configurar la localización fiscal de mi país.,negativo,-0.8981,pysentimiento
+820,"El proceso fue normal, sin grandes hitos.",negativo,-0.5574,vader
+821,El servicio de consultoría fue de primer nivel.,positivo,0.9579,pysentimiento
+822,El módulo de compras es demasiado complejo para nosotros.,negativo,-0.9531,pysentimiento
+823,Me siento tranquilo ahora que todo está automatizado.,positivo,0.8644,pysentimiento
+824,El ERP se cae constantemente en el cierre de mes.,neutro,0.0,vader
+825,El tiempo de respuesta del soporte fue aceptable.,neutro,0.0,vader
+826,La mejor decisión fue implementar Odoo con este equipo.,positivo,0.904,pysentimiento
+827,"La parametrización fue superficial, tuvimos que rehacerla.",negativo,-0.9153,pysentimiento
+828,El sistema ya está integrado con nuestra tienda de WooCommerce.,neutro,0.0,pysentimiento
+829,No recomiendo este servicio por la falta de puntualidad.,negativo,-0.296,vader
+830,El despliegue fue satisfactorio y el equipo fue cordial.,neutro,0.0,vader
+831,"El software hace lo que dice el manual, sin más.",neutro,0.0,pysentimiento
+832,Tardaron una eternidad en configurar el módulo de contabilidad.,negativo,-0.9383,pysentimiento
+833,El ROI ha sido impresionante desde el primer día.,positivo,0.955,pysentimiento
+834,El sistema es lento cuando hay muchos concurrent users.,neutro,0.0,vader
+835,La comunicación fue fluida a través de Slack.,positivo,0.4972,pysentimiento
+836,"No cumplieron con el deadline, un desastre.",negativo,-0.296,vader
+837,"La herramienta es potente, pero requiere un buen server.",neutro,0.0,vader
+838,Me encanta la flexibilidad del sistema.,neutro,0.0,vader
+839,El consultor fue distante y no mostró interés en el negocio.,negativo,-0.8404,pysentimiento
+840,Se instaló el módulo de CRM y el de Warehouse.,neutro,0.0,pysentimiento
+841,"El servicio fue impecable, desde el onboarding hasta el cierre.",neutro,0.0,vader
+842,La migración de datos fue un proceso tedioso.,negativo,-0.9606,pysentimiento
+843,"El ERP es funcional, cumple con lo básico.",positivo,0.4849,pysentimiento
+844,"Súper mala experiencia, el soporte no responde los mails.",negativo,-0.9601,pysentimiento
+845,La capacitación fue muy útil para el equipo.,positivo,0.9696,pysentimiento
+846,El sistema es estable pero la UI es muy básica.,negativo,-0.5909,pysentimiento
+847,Logramos reducir el lead time de facturación. ¡Genial!,positivo,0.9556,pysentimiento
+848,El despliegue tuvo varios critical errors al inicio.,negativo,-0.5719,vader
+849,Recibimos el manual de usuario en PDF.,neutro,0.0,vader
+850,"Un trabajo impecable, el sistema es súper rápido.",positivo,0.9721,pysentimiento
+851,No saben configurar el módulo de manufactura.,negativo,-0.9544,pysentimiento
+852,"El proceso fue normal, sin sobresaltos.",negativo,-0.5574,vader
+853,"El sistema es potente, pero la implementación fue tan lenta que casi perdemos el año.",negativo,-0.9346,pysentimiento
+854,"Me encanta Odoo, pero odio a la empresa que me lo instaló.",negativo,-0.8122,pysentimiento
+855,"El equipo fue muy amable, aunque la solución técnica fue un desastre.",positivo,0.4949,pysentimiento
+856,"La configuración multi-company es un caos, no sabemos dónde cae cada gasto.",negativo,-0.9712,pysentimiento
+857,"Todo funciona, pero el proceso de implementación fue un trauma para el staff.",negativo,-0.796,pysentimiento
+858,"El despliegue fue rápido, aunque ahora pasamos el día arreglando errores.",neutro,0.0,pysentimiento
+859,Es impresionante lo poco que saben de contabilidad local. 🙃,neutro,0.0,vader
+860,"El ROI es positivo, pero el costo emocional del proyecto fue demasiado alto.",neutro,0.0,vader
+861,"La interfaz de Odoo Studio es genial, pero la parametrización fue mediocre.",negativo,-0.8233,pysentimiento
+862,"Súper contentos con el resultado, a pesar de que el consultor llegaba tarde siempre.",positivo,0.8816,pysentimiento
+863,"El sistema es estable, pero la curva de aprendizaje es una montaña rusa.",neutro,0.0,pysentimiento
+864,"Tuvimos una migración exitosa, aunque perdimos el historial de mensajes.",positivo,0.5111,pysentimiento
+865,"El soporte es rápido, pero no resuelven el problema, solo lo ""parchan"".",negativo,-0.9165,pysentimiento
+866,"La implementación fue correcta, pero el precio final fue una sorpresa desagradable.",negativo,-0.7784,pysentimiento
+867,¡Qué maravilla! Ahora tenemos que hacer el doble de trabajo manual que antes. 🙄,negativo,-0.5532,pysentimiento
+868,"El flujo de ventas es perfecto, pero el de compras es un laberinto.",positivo,0.3182,vader
+869,"Siento que el proyecto fue un éxito técnico, pero un fracaso en comunicación.",negativo,-0.929,pysentimiento
+870,La configuración multi-moneda es un dolor de cabeza constante.,negativo,-0.9717,pysentimiento
+871,"El consultor es un genio técnico, pero no sabe comunicarse con humanos.",negativo,-0.8017,pysentimiento
+872,"El sistema vuela, aunque la capacitación fue un chiste.",negativo,-0.5794,pysentimiento
+873,"Todo quedó operativo, pero el manual de usuario parece escrito en otro idioma.",neutro,0.0,pysentimiento
+874,"La implementación fue estándar, pero nosotros necesitábamos algo disruptivo.",neutro,0.0,pysentimiento
+875,"Me gusta la herramienta, pero me decepcionó la falta de seguimiento post-venta.",negativo,-0.808,pysentimiento
+876,"El despliegue fue impecable, aunque el presupuesto se triplicó.",positivo,0.9469,pysentimiento
+877,"Sinceramente, el sistema es bueno, pero la consultoría fue irrelevante.",negativo,-0.8524,pysentimiento
+878,"La localización fiscal está bien, pero el módulo de nómina es un desastre.",negativo,-0.904,pysentimiento
+879,¡Increíble! Lograron que un proceso simple se volviera complejo. 👏,positivo,0.9332,pysentimiento
+880,"El equipo fue profesional, pero el resultado final es insuficiente.",neutro,0.0,vader
+881,"El ERP es robusto, pero la implementación fue superficial.",negativo,-0.68,pysentimiento
+882,"Tuvimos un go-live exitoso, pero el sistema se cae cada viernes.",neutro,0.0,vader
+883,"El soporte técnico es amable, pero la resolución de bugs es eterna.",negativo,-0.5567,pysentimiento
+884,"La parametrización de almacenes es lógica, pero la ejecución fue pobre.",negativo,-0.6154,pysentimiento
+885,"Me encanta la visibilidad de los KPIs, aunque los datos estén mal cargados.",positivo,0.9027,pysentimiento
+886,"El consultor sabía mucho de Odoo, pero nada de nuestro negocio.",neutro,0.0,pysentimiento
+887,"La transición fue fluida, pero el sistema es demasiado lento en horas pico.",negativo,-0.8661,pysentimiento
+888,"Es una herramienta fantástica, lastima que la instalación haya sido tan torpe.",positivo,0.631,pysentimiento
+889,"El flujo de aprobación de gastos es eficiente, pero la interfaz es saturada.",negativo,-0.5552,pysentimiento
+890,"El despliegue fue quirúrgico, pero olvidaron configurar los permisos de usuario.",neutro,0.0,pysentimiento
+891,Siento que pagamos por un servicio premium y recibimos uno básico.,negativo,-0.9195,pysentimiento
+892,"La configuración de impuestos es correcta, pero el reporte es ilegible.",neutro,0.0,pysentimiento
+893,"El sistema es intuitivo, pero el soporte técnico es un muro de piedra.",negativo,-0.7442,pysentimiento
+894,"¡Genial! Ahora el sistema hace todo, excepto lo que nosotros necesitamos.",positivo,0.8476,pysentimiento
+895,"La migración de datos fue impecable, pero el mapeo de cuentas fue un error.",neutro,0.0,pysentimiento
+896,"El equipo de trabajo fue coordinado, pero el proyecto se extendió meses.",neutro,0.0,pysentimiento
+897,"La herramienta es potente, pero la implementación fue un experimento.",neutro,0.0,pysentimiento
+898,"Tuvimos una capacitación dinámica, pero el sistema sigue siendo un misterio.",negativo,-0.781,pysentimiento
+899,"El ROI es evidente, aunque el proceso de adopción fue doloroso.",negativo,-0.5317,pysentimiento
+900,"La interfaz es limpia, pero el rendimiento del servidor es mediocre.",neutro,0.0,vader
+901,"El consultor fue muy proactivo, pero no resolvió los problemas de fondo.",negativo,-0.8498,pysentimiento
+902,"Satisfecho con el software, decepcionado con el partner de implementación.",negativo,-0.8014,pysentimiento
+903,"El sistema es estable, pero la configuración de la API fue un desastre.",negativo,-0.8737,pysentimiento
+904,"El despliegue fue normal, pero la comunicación fue inexistente.",negativo,-0.6101,pysentimiento
+905,¡Impresionante! Ahora sabemos exactamente por qué el sistema no funciona.,negativo,-0.8919,pysentimiento
+906,"La parametrización de la nómina es correcta, pero el módulo es lento.",neutro,0.0,pysentimiento
+907,"El soporte es excelente, pero solo durante el primer mes.",neutro,0.0,vader
+908,"La implementación fue un éxito, aunque el staff odia el programa.",positivo,0.8955,pysentimiento
+909,"Tuvimos un cierre de mes exitoso, pero el sistema estuvo al borde del colapso.",neutro,0.0,vader
+910,"El ERP es funcional, pero la consultoría fue demasiado genérica.",negativo,-0.746,pysentimiento
+911,"La configuración de Odoo.sh fue rápida, pero la optimización fue nula.",negativo,-0.8586,pysentimiento
+912,"Me encanta la flexibilidad, pero odio la cantidad de clics para hacer una factura.",neutro,0.0,vader
+913,"El equipo técnico es brillante, pero el project manager fue un desastre.",negativo,-0.8322,pysentimiento
+914,"El software es moderno, pero la metodología de implementación fue arcaica.",negativo,-0.6435,pysentimiento
+915,"Tuvimos una puesta en marcha exitosa, aunque el soporte es lento.",neutro,0.0,vader
+916,"La migración fue tediosa, pero el resultado final es aceptable.",positivo,0.7336,pysentimiento
+917,"El consultor fue muy amable, pero técnicamente estaba perdido.",neutro,0.0,pysentimiento
+918,"La interfaz de usuario es top, pero la lógica de negocio es errónea.",negativo,-0.5752,pysentimiento
+919,Siento que la implementación fue apresurada para cobrar la factura.,negativo,-0.9316,pysentimiento
+920,"El sistema es robusto, aunque la capacitación fue insuficiente.",neutro,0.0,pysentimiento
+921,"La localización fiscal es perfecta, pero el resto del ERP es inestable.",neutro,0.0,pysentimiento
+922,"¡Brillante! Lograron que el inventario cuadre, pero el sistema no arranca.",negativo,-0.7818,pysentimiento
+923,"El flujo de ventas es ágil, pero la contabilidad es un caos.",negativo,-0.8824,pysentimiento
+924,"El soporte técnico resuelve, pero tarda una eternidad en responder.",neutro,0.0,pysentimiento
+925,"La implementación fue correcta, aunque el equipo estuvo muy distante.",positivo,0.657,pysentimiento
+926,"El software es intuitivo, pero la parametrización fue muy básica.",negativo,-0.4981,pysentimiento
+927,"Tuvimos un despliegue sin errores, pero el sistema es demasiado lento.",negativo,-0.5574,vader
+928,"La configuración de los dashboards es hermosa, pero los datos son falsos.",negativo,-0.5727,pysentimiento
+929,"El consultor fue muy profesional, aunque no entendía el flujo de caja.",positivo,0.5553,pysentimiento
+930,"El ROI es positivo, pero el proceso de implementación fue agotador.",negativo,-0.7421,pysentimiento
+931,"La herramienta es potente, pero el setup inicial fue un horror.",negativo,-0.5719,vader
+932,"Tuvimos un training completo, pero nadie sabe usar el sistema.",neutro,0.0,vader
+933,"El sistema es estable, pero la configuración de los impuestos es errónea.",negativo,-0.7189,pysentimiento
+934,"La migración fue un éxito, aunque borraron algunos registros antiguos.",positivo,0.6352,pysentimiento
+935,"El soporte es muy cordial, pero la efectividad es nula.",neutro,0.0,vader
+936,"La implementación fue fluida, pero el resultado es insuficiente.",negativo,-0.7732,pysentimiento
+937,"El ERP es una joya, pero la consultoría fue una pérdida de tiempo.",negativo,-0.8117,pysentimiento
+938,"Tuvimos un go-live tranquilo, pero ahora el sistema no responde.",negativo,-0.296,vader
+939,"La interfaz es moderna, pero la experiencia de usuario es frustrante.",neutro,0.0,vader
+940,"El equipo fue puntual, pero la calidad del trabajo fue mediocre.",neutro,0.0,vader
+941,"Siento que el sistema es potente, pero la implementación fue pobre.",negativo,-0.6929,pysentimiento
+942,"La configuración de almacenes es correcta, pero la ejecución fue lenta.",neutro,0.0,pysentimiento
+943,"El soporte técnico es eficiente, pero la comunicación es fría.",neutro,0.0,pysentimiento
+944,"El despliegue fue exitoso, aunque el presupuesto se disparó.",positivo,0.5601,pysentimiento
+945,"La capacitación fue útil, pero el sistema es demasiado complejo.",negativo,-0.8001,pysentimiento
+946,"El software vuela, pero la configuración de usuarios es un desastre.",negativo,-0.9357,pysentimiento
+947,"Tuvimos un cierre mensual perfecto, aunque el sistema estuvo lento.",positivo,0.3182,vader
+948,"El consultor fue muy técnico, pero le faltó visión de negocio.",neutro,0.0,pysentimiento
+949,"La parametrización de la nómina es un éxito, el resto es regular.",neutro,0.0,pysentimiento
+950,"El sistema es funcional, aunque la implementación fue traumática.",neutro,0.0,pysentimiento
+951,"La localización fiscal es correcta, pero el soporte es inexistente.",neutro,0.0,pysentimiento
+952,"El despliegue fue rápido, pero la calidad es cuestionable.",neutro,0.0,pysentimiento
+953,"Súper contentos con Odoo, pero muy molestos con el partner.",negativo,-0.7056,pysentimiento
+954,"La implementación fue un éxito técnico, pero un fracaso humano.",negativo,-0.8461,pysentimiento
+955,"El sistema es aceptable, aunque el soporte tarda en responder.",neutro,0.0,vader
+956,¡Súper! El módulo de CRM nos ahorró horas de trabajo. 🚀,positivo,0.5905,pysentimiento
+957,"No recomiendo el servicio, el go-live fue un desastre total.",negativo,-0.296,vader
+958,"La implementación de Odoo fue estándar, cumplió lo pactado.",positivo,0.8451,pysentimiento
+959,"El consultor fue muy amable, pero el sistema sigue teniendo bugs.",neutro,0.0,vader
+960,"La migración de datos tomó más tiempo del esperado, pero quedó bien.",positivo,0.7586,pysentimiento
+961,Súper contentos con la automatización de los reportes. ✅,positivo,0.7788,pysentimiento
+962,"El software funciona, aunque la interfaz es un poco lenta.",neutro,0.0,vader
+963,"Pésimo servicio post-venta, nos dejaron solos tras el pago.",negativo,-0.9783,pysentimiento
+964,"La capacitación fue básica, nada fuera de lo común.",neutro,0.0,pysentimiento
+965,Odoo es una gran herramienta y la instalación fue impecable.,positivo,0.9801,pysentimiento
+966,No entendieron nuestro flujo de caja y el ERP quedó mal configurado.,negativo,-0.9372,pysentimiento
+967,El precio del servicio es justo para lo que ofrecen.,neutro,0.0,vader
+968,Me encanta cómo integraron la pasarela de pagos. ¡10/10!,positivo,0.9721,pysentimiento
+969,Siento que pagué demasiado por un servicio mediocre.,negativo,-0.9844,pysentimiento
+970,Se instalaron los módulos de compras y ventas según el contrato.,neutro,0.0,pysentimiento
+971,"El soporte técnico es un desastre, tardan siglos en contestar.",negativo,-0.9756,pysentimiento
+972,"Finalmente tenemos el inventario cuadrado, gracias al equipo.",neutro,0.0,vader
+973,El proceso de implementación fue lineal y sin sobresaltos.,positivo,0.7844,pysentimiento
+974,El sistema se cuelga cada vez que genero una factura masiva. 😡,neutro,0.0,vader
+975,"Es un ERP potente, pero requiere mucha paciencia para aprender.",neutro,0.0,vader
+976,"Excelente comunicación durante todo el proyecto, muy profesionales.",positivo,0.9707,pysentimiento
+977,La configuración de los impuestos fue un dolor de cabeza.,negativo,-0.976,pysentimiento
+978,El despliegue se realizó en la nube y funciona correctamente.,positivo,0.7385,pysentimiento
+979,"Todo quedó perfecto, superaron nuestras expectativas.",positivo,0.9553,pysentimiento
+980,No me gusta cómo manejaron la migración de los clientes antiguos.,negativo,-0.9746,pysentimiento
+981,"El servicio fue regular, ni bueno ni malo.",neutro,0.0,vader
+982,Una inversión totalmente rentable para nuestra pyme.,positivo,0.9476,pysentimiento
+983,El consultor no sabía explicar las funciones avanzadas de Odoo.,negativo,-0.5228,pysentimiento
+984,Recibimos el acceso al sistema el día acordado.,neutro,0.0,pysentimiento
+985,"El módulo de manufactura es una joya, optimizamos la producción.",positivo,0.9694,pysentimiento
+986,Demasiados bugs en la versión que nos entregaron.,negativo,-0.9575,pysentimiento
+987,"El sistema es estable, aunque la velocidad de carga es media.",neutro,0.0,vader
+988,"Muy buena gestión del proyecto, cumplieron cada hito.",positivo,0.9754,pysentimiento
+989,"Me siento defraudado, el ERP no hace lo que prometieron en la demo.",negativo,-0.296,vader
+990,Tuvimos una sesión de dudas el viernes pasado.,neutro,0.0,pysentimiento
+991,El servicio de implementación fue rápido y eficiente. ✅,positivo,0.7605,pysentimiento
+992,La parametrización de la nómina está llena de errores.,negativo,-0.9611,pysentimiento
+993,"El software hace lo que necesitamos, nada más ni nada menos.",positivo,0.8821,pysentimiento
+994,¡Qué gran equipo! Resolvieron problemas que otros no pudieron.,positivo,0.9383,pysentimiento
+995,"No recomiendo contratar el soporte mensual, es muy caro y lento.",negativo,-0.296,vader
+996,La transición del sistema viejo a Odoo fue gradual.,neutro,0.0,pysentimiento
+997,El sistema es intuitivo y el personal se adaptó rápido.,positivo,0.7649,pysentimiento
+998,"Sinceramente, fue una pérdida de tiempo y dinero.",negativo,-0.9662,pysentimiento
+999,Se implementaron los flujos de aprobación de gastos.,neutro,0.0,pysentimiento
+1000,"Excelente soporte técnico, resolvieron mi duda en 10 minutos.",positivo,0.8108,pysentimiento
+1001,"El ERP es muy complejo, la capacitación fue muy superficial.",negativo,-0.9576,pysentimiento
+1002,"El despliegue fue normal, siguiendo el manual de Odoo.",neutro,0.0,vader
+1003,Estoy fascinado con la visibilidad que ahora tengo del negocio.,neutro,0.0,vader
+1004,Hubo mucha desorganización en las reuniones de seguimiento.,negativo,-0.901,pysentimiento
+1005,El sistema funciona correctamente en Chrome y Firefox.,neutro,0.0,vader
+1006,"Un servicio de lujo, el despliegue fue quirúrgico.",positivo,0.9637,pysentimiento
+1007,El módulo de contabilidad no cuadra con nuestros reportes reales.,negativo,-0.9414,pysentimiento
+1008,El costo de implementación se mantuvo dentro del presupuesto.,neutro,0.0,pysentimiento
+1009,La herramienta es útil pero la curva de aprendizaje es empinada.,neutro,0.0,pysentimiento
+1010,No pudieron resolver el problema de la integración con el banco.,negativo,-0.9418,pysentimiento
+1011,"Súper profesionales, el ERP quedó adaptado a nuestra medida.",positivo,0.591,pysentimiento
+1012,El proceso de instalación fue sencillo y sin errores.,positivo,0.8434,pysentimiento
+1013,Me parece que el sistema es demasiado robusto para lo que necesitamos.,neutro,0.0,vader
+1014,"El soporte es mediocre, solo responden lo básico.",negativo,-0.9728,pysentimiento
+1015,¡Por fin un ERP que no es una pesadilla de usar!,positivo,0.6063,pysentimiento
+1016,Se configuraron los permisos de usuario según la jerarquía.,neutro,0.0,pysentimiento
+1017,El despliegue fue improvisado y se notó la falta de experiencia.,negativo,-0.9038,pysentimiento
+1018,"La calidad del servicio es excepcional, muy recomendados.",neutro,0.0,vader
+1019,"Odoo es bueno, pero la configuración de esta empresa fue pobre.",negativo,-0.9126,pysentimiento
+1020,Tuvimos que hacer ajustes manuales porque el consultor se equivocó.,negativo,-0.8426,pysentimiento
+1021,El sistema está funcionando en modo producción desde ayer.,neutro,0.0,pysentimiento
+1022,Muy satisfechos con la rapidez de la implementación.,positivo,0.9411,pysentimiento
+1023,El módulo de ventas es confuso y el personal se queja.,negativo,-0.9552,pysentimiento
+1024,El servicio fue adecuado para el precio pagado.,neutro,0.0,vader
+1025,El equipo técnico demostró un dominio total de Odoo.,negativo,-0.5377,pysentimiento
+1026,Tardaron semanas en configurar un simple reporte de ventas.,neutro,0.0,vader
+1027,"La implementación fue estándar, no hubo personalizaciones.",negativo,-0.7406,pysentimiento
+1028,El ROI ha sido impresionante desde el primer mes.,positivo,0.34,vader
+1029,El sistema es lento cuando hay más de 10 usuarios conectados.,negativo,-0.9426,pysentimiento
+1030,La comunicación fue fluida a través de Slack.,positivo,0.4972,pysentimiento
+1031,"No cumplieron con los plazos de entrega, un desastre.",negativo,-0.296,vader
+1032,"La herramienta es potente, aunque requiere servidor propio.",neutro,0.0,vader
+1033,Me encanta la flexibilidad que nos dio la configuración final.,positivo,0.9638,pysentimiento
+1034,El consultor fue distante y no mostró interés en el negocio.,negativo,-0.8404,pysentimiento
+1035,Se instaló el módulo de CRM y el de Inventarios.,neutro,0.0,pysentimiento
+1036,"El servicio fue impecable, desde la preventa hasta la entrega.",neutro,0.0,vader
+1037,La migración de datos dejó muchos campos vacíos.,negativo,-0.9392,pysentimiento
+1038,"El ERP es funcional, cumple con los requerimientos.",neutro,0.0,vader
+1039,"Súper mala experiencia, no responden los correos.",negativo,-0.9664,pysentimiento
+1040,La capacitación fue muy dinámica y útil para el equipo.,positivo,0.9706,pysentimiento
+1041,El sistema es estable pero la interfaz se siente anticuada.,neutro,0.0,vader
+1042,Logramos reducir el tiempo de facturación a la mitad. ¡Genial!,positivo,0.956,pysentimiento
+1043,El despliegue tuvo varios errores críticos al inicio.,negativo,-0.6425,pysentimiento
+1044,Recibimos el manual de usuario en formato PDF.,neutro,0.0,vader
+1045,"Un trabajo impecable, el sistema vuela. 🚀",neutro,0.0,vader
+1046,No saben configurar la localización fiscal de nuestro país.,negativo,-0.9261,pysentimiento
+1047,"El proceso fue normal, sin grandes hitos ni grandes fallos.",negativo,-0.5574,vader
+1048,El servicio de consultoría fue de primer nivel.,positivo,0.9579,pysentimiento
+1049,El módulo de compras es redundante para nuestro proceso.,positivo,0.7341,pysentimiento
+1050,Me siento muy tranquilo ahora que todo está automatizado.,positivo,0.904,pysentimiento
+1051,El ERP se cae constantemente durante el cierre de mes.,neutro,0.0,vader
+1052,El tiempo de respuesta del equipo técnico fue aceptable.,positivo,0.5563,pysentimiento
+1053,La mejor decisión que tomamos fue implementar Odoo con ellos.,positivo,0.9216,pysentimiento
+1054,La parametrización fue superficial y tuvimos que rehacerla.,negativo,-0.9353,pysentimiento
+1055,El sistema ya está integrado con nuestra tienda de Shopify.,neutro,0.0,pysentimiento
+1056,No recomiendo este servicio por la falta de puntualidad.,negativo,-0.296,vader
+1057,El despliegue fue satisfactorio y el equipo fue cordial.,neutro,0.0,vader
+1058,"El software hace lo que dice el manual, sin más.",neutro,0.0,pysentimiento
+1059,Tardaron una eternidad en configurar la contabilidad.,neutro,0.0,vader
+1060,El ROI ha sido impresionante desde el primer día.,positivo,0.955,pysentimiento
+1061,El sistema es lento con muchos usuarios concurrentes.,neutro,0.0,vader
+1062,La comunicación fue fluida por Slack.,neutro,0.0,pysentimiento
+1063,"No cumplieron los plazos, un desastre total.",negativo,-0.296,vader
+1064,"La herramienta es potente, pero requiere un buen server.",neutro,0.0,vader
+1065,Me encanta la flexibilidad del sistema.,neutro,0.0,vader
+1066,El consultor fue distante y no mostró interés.,negativo,-0.8724,pysentimiento
+1067,Se instaló el módulo de CRM y Warehouse.,neutro,0.0,pysentimiento
+1068,"El servicio fue impecable, del onboarding al cierre.",neutro,0.0,vader
+1069,La migración de datos fue un proceso tedioso.,negativo,-0.9606,pysentimiento
+1070,"El ERP es funcional, cumple con lo básico.",positivo,0.4849,pysentimiento
+1071,"Súper mala experiencia, no responden los mails.",negativo,-0.9694,pysentimiento
+1072,La capacitación fue muy útil para el equipo.,positivo,0.9696,pysentimiento
+1073,El sistema es estable pero la UI es muy básica.,negativo,-0.5909,pysentimiento
+1074,Logramos reducir el lead time de facturación. ¡Genial!,positivo,0.9556,pysentimiento
+1075,El despliegue tuvo varios critical errors al inicio.,negativo,-0.5719,vader
+1076,Recibimos el manual de usuario en PDF.,neutro,0.0,vader
+1077,"Un trabajo impecable, el sistema es súper rápido.",positivo,0.9721,pysentimiento
+1078,No saben configurar el módulo de manufactura.,negativo,-0.9544,pysentimiento
+1079,"El proceso fue normal, sin sobresaltos.",negativo,-0.5574,vader
+
+RESUMEN
+Total líneas,1079
+Positivas,258 (23.9%)
+Negativas,347 (32.2%)
+Neutras,474 (43.9%)
+Sentimiento predominante,neutro

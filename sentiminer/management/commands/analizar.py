@@ -35,7 +35,7 @@ class Command(BaseCommand):
         parser.add_argument(
             '--grafico',
             action='store_true',
-            help='Abre un gráfico de resultados en el navegador (HU-05)'
+            help='Abre un gráfico de resultados en el navegador (HU-06)'
         )
 
     def handle(self, *args, **options):
@@ -201,7 +201,7 @@ class Command(BaseCommand):
 
     def _mostrar_grafico(self, archivo_obj):
         """
-        HU-05: Muestra un gráfico de pastel en el navegador.
+        HU-06: Muestra un gráfico de pastel en el navegador.
         """
         lineas = ResultadoLinea.objects.filter(archivo=archivo_obj)
         resumen = ResumenAnalisis.objects.get(archivo=archivo_obj)
