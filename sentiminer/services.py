@@ -8,8 +8,7 @@ class AnalizadorSentimiento:
     HU-03: Clasificación de frases en positivas, negativas o neutras.
     
     Motor de análisis sentimental multilingüe con prioridad en español
-    usando pysentimiento. Fallback a VADER para inglés y TextBlob como
-    respaldo adicional.
+    usando pysentimiento. Fallback a VADER para inglés.
     """
 
     def __init__(self):
@@ -31,7 +30,7 @@ class AnalizadorSentimiento:
 
     def _es_espanol(self, texto):
         """
-        Heurística para detectar si un texto está en español.
+        Detectar si un texto está en español.
         Busca caracteres propios del español: ñ, tildes, ¿, ¡
         """
         patron_espanol = re.compile(r'[ñáéíóúüÁÉÍÓÚÜ¿¡]')
